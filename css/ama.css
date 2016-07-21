@@ -16,6 +16,8 @@ body {
 }
 
 body {
+  background: -webkit-linear-gradient(315deg, #DDC49B, #F2A72E);
+  background: linear-gradient(135deg, #DDC49B, #F2A72E);
   background-size: cover;
   font-family: 'Open Sans', sans-serif;
   line-height: 1.3;
