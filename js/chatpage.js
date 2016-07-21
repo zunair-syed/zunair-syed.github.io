@@ -73,7 +73,7 @@ $(window).load(function() {
   usersRef = myFirebaseRef.child("User | "+new Date().toString());
   setTimeout(function() {
 updateScrollbar();
-    fakeMessage("Hey there! Ask me anything. 100. 110. 120. 130. 140. 150. 160. 170");
+    fakeMessage("Hey there! Ask me anything");
   }, 100);
 });
 
