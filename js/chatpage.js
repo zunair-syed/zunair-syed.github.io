@@ -13,18 +13,18 @@ var rs = new RiveScript({
 
 // Load our files from the brain/ folder.
 rs.loadFile([
-  "brain/begin.rive",
-  "brain/admin.rive",
-  "brain/clients.rive",
-  "brain/eliza.rive",
-  "brain/myself.rive",
-  "brain/rpg.rive",
-  "brain/fun.rive",
-  "brain/random.rive",
-  "brain/projects.rive",
-  "brain/school.rive",    
-  "brain/work.rive",    
-  "brain/javascript.rive"
+  "js/brain/begin.rive",
+  "js/brain/admin.rive",
+  "js/brain/clients.rive",
+  "js/brain/eliza.rive",
+  "js/brain/myself.rive",
+  "js/brain/rpg.rive",
+  "js/brain/fun.rive",
+  "js/brain/random.rive",
+  "js/brain/projects.rive",
+  "js/brain/school.rive",    
+  "js/brain/work.rive",    
+  "js/brain/javascript.rive"
   ], on_load_success, on_load_error);
 
 // You can register objects that can then be called 
