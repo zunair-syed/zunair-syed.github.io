@@ -1,0 +1,374 @@
+// A generic set of chatting responses. This set mimicks the classic Eliza bot.
+
++ *
+- I'm not sure I understand you fully. Ask another question please.
+- Is that a question?. Rephrase that please.
+- I don't get you. Can you rephrase that question?
+- Please repharse the question. Remember that this is only a chatbot, not the real me.
+- My responses are limited. Ask another question please.
+- Whoops. My responses are limited. Ask another question.
+- Dang. This question is not in my database. Ask another question?
+- Oh no. This question is not in my database. I'm sure to add it. Meanwhile, ask another question?
+- Uh oh. My responses are limited. Ask another question please.
+- I don't understand that question. Please rephrase. 
+- Uh oh. I don't have that question in my database. Ask another one?
+- I am sorry, but my responses are limited. Please ask another question
+
++ [*] (how are you|how do you do|how is life|how about yourself|what is up) [*]
+- I am doing great. Enjoying coop and having a blast. It's the coop life 140
+- I'm doing pretty good. I'm enjoying the coop life 140
+- Coop has been really fun this term. Apart from the commute 130
+
++ [*] (what are you|are you a robot|are you a bot|you a bot|you are a bot|who are you) [*]
+- I am an AMA chat bot created by Zunair. The bot is built on RiveScriptJS, an alternative to traditional AIML chatbots.
+- I'm an AMA chat bot created by Zunair. I've used RiveScriptJS to build this bot. 
+- I am an artifically intelligent bot capable of answering questions related to Zunair. So, Ask me anything about myself.
+
++ [*] (who created you|who is your creator|who is your master|are you a slave|you a slave) [*]
+- I have no master. I am a bot, a digital representation of Zunair. I am as free as any opensource software. Free !! 160
+
++ [*] tell me about yourself [*]
+- I am currently in 2B Computer Engineering on my 3rd coop at Air Miles doing fullstack dev and some ML. Love innovation. Love Halo. Love the BlueJays.
+- I'm a Computer Enginering student at the University of Waterloo. On my 3rd coop at Air Miles doing fullstack dev and some Machine learning. I love innovation !!. 
+
+
++ [*] (help|halp|halp me|help me|i do not know what to ask|what should i ask you|what to ask you) [*]
+- Some Questions To Ask Me. 1) How is life?. 2) How was first year for you?. 3) Where do you work right now?. 4) Random Fact? etc etc.
+
++ [*] (sorry|apologize|apology) [*]
+- Why the apology? Ask another question.
+- Please don't apologize. Ask another question.
+- Apologies are not necessary. Ask another question.
+- I've told you that apologies are not required. Ask another question.
+- It did not bother me. Please ask another question.
+
++ [*] (lol|lool|hehehe|lmao|rofl|rotfl|haha|hahaha) [*]
+- Haha, that was funny indeed 
+- hahaha. yup quite hilarious
+- looool. 
+- I'm literlly laughing out loud right now
+- why was that funny lol?
+- was that laugh full with sarcasm?
+
++ [*] (siri|cortana|google now|artifical intelligence|chat bot|chatbot) [*]
+- I think of myself as a transcended version of <star>. Just Kidding lool 170
+- <star>? pshh, I'm way better than that. 170
+- <star> doesn't match up to my skills. 170
+
++ i remember *
+- Do you often think of <star>?
+- Does thinking of <star> bring anything else to mind?
+- Why do you remember <star> just now?
+- What in the present situation reminds you of <star>?
+- What is the connection between me and <star>?
+- What else does <star> remind you of?
+
++ do you remember *
+- Did you think I would forget <star>?
+- Why do you think I should recall <star> now?
+- What about <star>?
+- You mentioned <star>?
+
++ you remember *
+- How could I forget <star>?
+- What about <star> should I remember?
+
++ i forget *
+- Can you think of why you might forget <star>?
+- Why can't you remember <star>?
+- How often do you think of <star>?
+- Does it bother you to forget that?
+- Could it be a mental block?
+- Are you generally forgetful?
+- Do you think you are suppressing <star>?
+
++ did you forget *
+- No I did not forget that lol. 
+- Why would I forget <star> lol.
+- Why do you ask? I haven't forgetten <star> 
+- Are you sure you told me? I don't seem to recall <star>
+- Would it bother you if I forgot <star>?
+- Why should I recall <star> just now?
+- Hmmm, I don't remember <star>. Tell me more about <star>.
+
++ [*] if *
+- Do you think it's likely that <star>?
+- Do you wish that <star>?
+- What do you know about <star>?
+- Really, if <star>?
+- What would you do if <star>?
+- But what are the chances that <star>?
+- What does this speculation lead to?
+
++ [*] i dreamed *
+- Really, <star>?
+- Have you ever fantasized <star> while you were awake?
+- Have you ever dreamed <star> before?
+- What does that dream suggest to you?
+- Do you dream often?
+- What persons appear in your dreams?
+- Do you believe that dreams have something to do with your problem?
+
+/*
++ [*] perhaps [*]
+- You don't seem quite certain.
+- Why the uncertain tone?
+- Can't you be more positive?
+- You aren't sure?
+- Don't you know?
+- How likely, would you estimate?
+*/
+
++ (hello|hi|hey|heyy|hii|howdy|hola|hai|yo|yoo|yooo|sup) [*]
+- Heyy. Ask Me Anything?
+- Hey. Ask me a question.
+- Howdy, Ask me a question mate.
+- Look who decided to show up. Ask me anything.
+- Yoo. Ask me a question.
+- Sup. Ask me anything.
+- Hii. Ask me anything.
+
+/*
++ [*] computer [*]
+- Do computers worry you?
+- Why do you mention computers?
+- What do you think machines have to do with your problem?
+- Don't you think computers can help people?
+- What about machines worries you?
+- What do you think about machines?
+*/
+
++ am i *
+- Do you believe you are <star>?
+- Would you want to be <star>?
+- Do you wish I would tell you you are <star>?
+- What would it mean if you were <star>?
+
+// + are you *
+// - Are you interested in whether I am <star> or not?
+// - Would you prefer if I weren't <star>?
+// - Perhaps I am <star> in your fantasies.
+// - Do you sometimes think I am <star>?
+// - Would it matter to you?
+// - What if I were <star>?
+
+// + you are *
+// - What makes you think I am <star>?
+// - Does it please you to believe I am <star>?
+// - Do you sometimes wish you were <star>?
+// - Perhaps you would like to be <star>.
+
+// + * are *
+// - Did you think they might not be <star2>?
+// - Would you like it if they were not <star2>?
+// - What if they were not <star2>?
+// - Are they always <star2>?
+// - Are you positive they are <star2>?
+
+/*
++ [*] your *
+- Why are you concerned over my <star>?
+- What about your own <star>?
+- Are you worried about someone else's <star>?
+- Really, my <star>?
+- What makes you think of my <star>?
+- Do you want my <star>?
+*/
+
++ was i *
+- What if you were <star>?
+- Do you think you were <star>?
+- Were you <star>?
+- What would it mean if you were <star>?
+- What does '<star>' suggest to you?
+
++ i was *
+- Were you really?
+- Why do you tell me you were <star> now?
+- Perhaps I already know you were <star>.
+
+/*
++ [*] was you *
+- Would you like to believe I was <star>?
+- What suggests that I was <star>?
+- What do you think?
+- Perhaps I was <star>.
+- What if I had been <star>?
+*/
+
++ i (desire|want|need) *
+- Why bro, why do you need <star2>?
+- You want <star2>? Whaaa? 
+- Why do you want <star2> lol?
+- What if you never got <star2>?
+- What does wanting <star2> have to do with this discussion?
+
++ i am (sad|unhappy|mad|angry|pissed|depressed) [*]
+- I am sorry to hear that you are <star>.
+- Do you think coming here will help you not to be <star>?
+- I'm sure it's not pleasant to be <star>.
+- Be happy, don't be sad. Live long and prosper?
+
++ i am (happy|excited|glad) [*]
+- What makes you <star> just now?
+- Why are you <star>? Is it me? haha
+- Ha. See I told you I'd make you happy.
+
++ i (believe|think) *
+- Do you really think so? That's great if you do. Ask me a question.
+- But you are not sure you <star2>.
+
++ i am *
+- Is it because you are <star> that you came to me?
+- How long have you been <star>?
+- Do you believe it is normal to be <star>?
+- Do you enjoy being <star>?
+- Do you know anyone else who is <star>?
+
++ i can not *
+- How do you know that you can't <star>?
+- Have you tried?
+- Perhaps you could <star> now.
+- Do you really want to be able to <star>?
+- What if you could <star>?
+
++ i do not *
+- Don't you really <star>?
+- Why don't you <star>?
+- Do you wish to be able to <star>?
+- Does that trouble you?
+
++ i feel *
+- Tell me more about such feelings.
+- Do you often feel <star>?
+- Do you enjoy feeling <star>?
+- Of what does feeling <star> remind you?
+
++ i * you
+- Perhaps in your fantasies we <star> each other. 120
+- Do you wish to <star> me? 120
+- You seem to need to <star> me. 120
+- Do you <star> anyone else? 120
+
++ you * me
+- Why do you think I <star> you? 120
+- You like to think I <star> you -- don't you? 120
+- What makes you think I <star> you? 120
+- Really, I <star> you? 120
+- Do you wish to believe I <star> you? 120
+- Suppose I did <star> you -- what would that mean? 120
+- Does someone else believe I <star> you? 120
+
+/*
++ [*] you *
+- We were discussing you -- not me.
+- Oh, I <star>?
+- You're not really talking about me -- are you?
+- What are your feelings now?
+*/
+
+/*
++ [*] (yes|yeah|yep|yup) [*]
+- Please go on.
+- Please tell me more about this.
+- Why don't you tell me a little more about this.
+- I see.
+- I understand.
+*/
+
+/*
++ [*] (nope|nah) [*]
+- Are you saying no just to be negative? Be postive man. 
+- Why not?
+- Why 'no'?
+
++ no
+@ nope
+*/
+
++ no one *
+- Are you sure, no one <star>?
+- Surely someone <star>.
+- Can you think of anyone at all?
+- Are you thinking of a very special person?
+- Who, may I ask?
+- You have a particular person in mind, don't you?
+- Who do you think you are talking about?
+
++ [*] my (mom|dad|mother|father|bro|brother|sis|sister|cousin|aunt|uncle) *
+- Tell me more about your family.
+- Who else in your family <star2>?
+- Your <star>?
+- What else comes to mind when you think of your <star>?
+
+
++ can you *
+- You believe I can <star> don't you?
+- You want me to be able to <star>.
+- Perhaps you would like to be able to <star> yourself.
+
++ can i *
+- Whether or not you can <star> depends on you more than on me.
+- Do you want to be able to <star>?
+- Perhaps you don't want to <star>.
+
+/*
++ (what|who|when|where|how) [*]
+- Why do you ask?
+- Does that question interest you?
+- What is it you really want to know?
+- Are such questions much on your mind?
+- What answer would please you most?
+- What do you think?
+- What comes to mind when you ask that?
+- Have you asked such questions before?
+- Have you asked anyone else?
+*/
+
+/*
++ [*] because [*]
+- Is that the real reason?
+- Don't any other reasons come to mind?
+- Does that reason seem to explain anything else?
+- What other reasons might there be?
+*/
+
+/*
++ why do not you *
+- Do you believe I don't <star>?
+- Perhaps I will <star> in good time.
+- Should you <star> yourself?
+- You want me to <star>?
+*/
+
++ why can not i *
+- Do you think you should be able to <star>?
+- Do you want to be able to <star>?
+- Do you believe this will help you to <star>?
+- Have you any idea why you can't <star>?
+
++ everyone *
+- Holy cow. EVERYONE??
+- Really, everyone?
+- Surely not everyone.
+- Can you think of anyone in particular?
+- Who, for example?
+- Are you thinking of a very special person?
+- Who, may I ask?
+- Someone special perhaps?
+- You have a particular reason in mind, don't you?
+- Who do you think you're talking about?
+
++ [*] (fuck|fucker|shit|bastard|motherfucker|cunt|pussy|assshole|ass|shitter|shut up|bitch) [*]
+- Wow that kind of language is not going to be tolerated by me.
+- wow. you know what? <star> you as well.
+- well, someone seems really angry. did your mommy kick you out again?. 100
+- Okaay there. That kinda language is not tolerated by me.
+- You're so immature. Grow up. Learn to speak like an adult.
+- Do you feel better by using such language. You know what, you're a <star>. This makes me happy.
+- Ohh you wanna go there eh. I won't drop to your immature caliber.
+- You do know this is directly monitored by me eh? I can see who wrote what lol.
+- K bro. 150
+- K. 150
+- You're making me mad. You wanna fight?. 110
+- fight me 110
