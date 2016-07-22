@@ -23,19 +23,25 @@ vex.dialog.confirm({
     //return console.log(value ? 'Successfully destroyed the planet.' : 'Chicken.');
   }
 });</script> -->
-<object id="chatbubble" type="text/html" data="https://zunair-syed.github.io/bubble" style="width:100%; height:100%;" >
-  <div  class="tab " id="tab0">
-      <object id="profile" type="text/html" data="https://zunair-syed.github.io/profile"></object>
-      <canvas id="canvas"></canvas>
+
+<div id="maincontainer">
+    <div id="contentdiv">
+        <div  class="tab " id="tab0">
+            <object id="profile" type="text/html" data="https://zunair-syed.github.io/profile"></object>
+            <canvas id="canvas"></canvas>
+        </div>
+        <div class="tab glassy_bg" id="tab1" class="removeable"></div>
+        <div class="tab glassy_bg" id="tab2" class="removeable"></div>
+        <div  class="tab glassy_bg" id="tab3" class="removeable"></div>
+        <div class="tab glassy_bg" id="tab4" class="removeable">
+          <object id="chat" type="text/html" data="https://zunair-syed.github.io/chat_widget"></object>
+        </div>
+        <div id="enddiv"></div>
+    </div>
+    <div id="bubblediv">
+       <object id="chatbubble" type="text/html" data="https://zunair-syed.github.io/bubble"></object>
+    </div>
   </div>
-  <div class="tab glassy_bg" id="tab1" class="removeable"></div>
-  <div class="tab glassy_bg" id="tab2" class="removeable"></div>
-  <div  class="tab glassy_bg" id="tab3" class="removeable"></div>
-  <div class="tab glassy_bg" id="tab4" class="removeable">
-    <object id="chat" type="text/html" data="https://zunair-syed.github.io/chat_widget"></object>
-  </div>
-  <div id="enddiv"></div>
-  </object>
   <script src="/js/profile_live_background.js"></script>
 </body>
 </html>

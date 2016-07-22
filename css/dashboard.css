@@ -4,6 +4,27 @@ body{
 margin:0;
 }
 
+#maincontainer{
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+#bubblediv{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 10;
+}
+#contentdiv{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
 #profile{
   width: 85vw;
   height: 100vh;
