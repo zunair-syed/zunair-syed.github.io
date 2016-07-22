@@ -56,7 +56,7 @@ position: absolute;
   background-color: #E2E2FF;
 }
 #tab1::after {
-  content: 'tab1';
+  content: 'Exp1';
   position: absolute;
   width: 5vw;
   height: 25vh;
@@ -65,6 +65,7 @@ position: absolute;
   top: 75%;
   right: -5vw;
 
+
 }
 
 #tab2 {
@@ -72,7 +73,7 @@ position: absolute;
   background-color: #BDF4A4;
 }
 #tab2::after {
-  content: 'tab2';
+  content: 'Pject2';
   position: absolute;
   width: 5vw;
   height: 25vh;
@@ -87,7 +88,7 @@ position: absolute;
   background-color: #EF7464;
 }
 #tab3::after {
-  content: 'tab3';
+  content: 'Skool3';
   position: absolute;
   width: 5vw;
   height: 25vh;
@@ -102,7 +103,7 @@ position: absolute;
   background-color: #EDEF70;
 }
 #tab4::after {
-  content: 'tab4';
+  content: 'Edu4';
   position: absolute;
   width: 5vw;
   height: 25vh;
@@ -295,4 +296,14 @@ background-color: yellow;
     .col-10 {width: 83.33%;}
     .col-11 {width: 91.66%;}
     .col-12 {width: 100%;}
+}
+
+.div_text_shadow {
+color: rgb(255, 255, 255);
+font-size: 50px;
+background-color: rgb(85, 147, 194);
+text-shadow: rgb(204, 204, 204) 0px 1px 0px, rgb(201, 201, 201) 0px 2px 0px, rgb(187, 187, 187) 0px 3px 0px, rgb(185, 185, 185) 0px 4px 0px, rgb(170, 170, 170) 0px 5px 0px, rgba(0, 0, 0, 0.1) 0px 6px 1px, rgba(0, 0, 0, 0.1) 0px 0px 5px, rgba(0, 0, 0, 0.3) 0px 1px 3px, rgba(0, 0, 0, 0.15) 0px 3px 5px, rgba(0, 0, 0, 0.2) 0px 5px 10px, rgba(0, 0, 0, 0.2) 0px 10px 10px, rgba(0, 0, 0, 0.1) 0px 20px 20px;
+-ms-transform: rotate(90deg); /* IE 9 */
+-webkit-transform: rotate(90deg); /* Chrome, Safari, Opera */
+transform: rotate(90deg);
 }
