@@ -96,14 +96,14 @@ position: absolute;
 
 #tab2 {
   width: 85vw;
-  background-color: #81BC06;
+  background-color: #FFBA08;
 }
 #tab2::after {
   content: 'Pject2';
   position: absolute;
   width: 5vw;
   height: 25vh;
-  background: #81BC06;
+  background: #FFBA08;
   border-radius: 0 20px 20px 0;
   top: 50%;
   right: -5vw;
@@ -111,14 +111,14 @@ position: absolute;
 
 #tab3 {
   width: 80vw;
-  background-color: #F35325;
+  background-color: #81BC06;
 }
 #tab3::after {
   content: 'Skool3';
   position: absolute;
   width: 5vw;
   height: 25vh;
-  background: #F35325;
+  background: #81BC06;
   border-radius: 0 20px 20px 0;
   top: 25%;
   right: -5vw;
@@ -126,14 +126,14 @@ position: absolute;
 
 #tab4 {
   width: 75vw;
-  background-color: #FFBA08;
+  background-color: #F35325;
 }
 #tab4::after {
   content: 'Edu4';
   position: absolute;
   width: 5vw;
   height: 25vh;
-  background: #FFBA08;
+  background: #F35325;
   border-radius: 0 20px 20px 0;
   top: 0;
   right: -5vw;
