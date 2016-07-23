@@ -99,11 +99,14 @@ position: absolute;
   background-color: #FFBA08;
 }
 #tab2::after {
-  content: 'Pject2';
+  content: "";
+  background-image: url("../img/zunair.png") ;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
   position: absolute;
   width: 5vw;
   height: 25vh;
-  background: #FFBA08;
   border-radius: 0 20px 20px 0;
   top: 50%;
   right: -5vw;
