@@ -29,8 +29,8 @@ body {
   left: 0;
   z-index: 1;
   background: url("https://ece.uwaterloo.ca/~zu2syed/img/zunair.png") no-repeat 0 0;
-  -webkit-filter: blur(80px);
-          filter: blur(80px);
+/*  -webkit-filter: blur(80px);
+          filter: blur(80px);*/
   -webkit-transform: scale(1.2);
           transform: scale(1.2);
 }
