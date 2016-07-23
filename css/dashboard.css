@@ -78,7 +78,7 @@ position: absolute;
 */}
 
 #tab1 {
-  width: 95vw;
+  width: 90vw;
   background-color: #E2E2FF;
 }
 #tab1::after {
@@ -95,7 +95,7 @@ position: absolute;
 }
 
 #tab2 {
-  width: 90vw;
+  width: 85vw;
   background-color: #BDF4A4;
 }
 #tab2::after {
@@ -110,7 +110,7 @@ position: absolute;
 }
 
 #tab3 {
-  width: 85vw;
+  width: 80vw;
   background-color: #EF7464;
 }
 #tab3::after {
@@ -125,7 +125,7 @@ position: absolute;
 }
 
 #tab4 {
-  width: 80vw;
+  width: 75vw;
   background-color: #EDEF70;
 }
 #tab4::after {
