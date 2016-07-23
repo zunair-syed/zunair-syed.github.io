@@ -136,6 +136,7 @@ h1 .info {
     transform: rotate(2deg);
   }
 }
-.box-item:hover {
+/*.box-item:hover {
   opacity: 0.6;
 }
+*/
