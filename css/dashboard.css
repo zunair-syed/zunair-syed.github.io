@@ -114,7 +114,7 @@ position: absolute;
   background-color: #81BC06;
 }
 #tab3::after {
-  content: 'Skool3';
+  content: 'img/zunair.png';
   position: absolute;
   width: 5vw;
   height: 25vh;
