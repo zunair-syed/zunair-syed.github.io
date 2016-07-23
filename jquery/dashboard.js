@@ -3,13 +3,13 @@ $(document).ready(function(){
 
 	var tab0 = document.getElementById( "tab0" );
 	$(tab0).css("transform", "translateX(0vw)");
-	$(tab0).nextAll().css("transform", "translateX(-80vw)");
+	$(tab0).nextAll().css("transform", "translateX(-75vw)");
 
 	$( ".tab" ).hover(
 	  function() {
 	  	$(this).css("transform", "translateX(0vw)");
 	  	$(this).prevAll().css("transform", "translateX(0vw)");
-	  	$(this).nextAll().css("transform", "translateX(-80vw)");
+	  	$(this).nextAll().css("transform", "translateX(-75vw)");
 		// console.log("ONNN");
 	  }, function() {
 		// console.log("OFF");
