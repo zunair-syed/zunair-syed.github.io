@@ -42,6 +42,7 @@ Chat
   position: absolute;
   top: 50%;
   left: 50%;
+  -webkit-filter: blur(0);
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
   -webkit-font-smoothing: antialiased;
@@ -71,6 +72,7 @@ Chat
 Chat Title
 --------------------*/
 .chat-title {
+  -webkit-filter: blur(0);
   -webkit-box-flex: 0;
   -webkit-flex: 0 1 45px;
       -ms-flex: 0 1 45px;
@@ -116,6 +118,7 @@ Chat Title
 Messages
 --------------------*/
 .messages {
+  -webkit-filter: blur(0);
   -webkit-box-flex: 1;
   -webkit-flex: 1 1 auto;
       -ms-flex: 1 1 auto;
@@ -197,6 +200,7 @@ Messages
   margin-bottom: 30px;
 }
 .messages .message.new {
+  -webkit-filter: blur(0);
   -webkit-transform: scale(0);
           transform: scale(0);
   -webkit-transform-origin: 0 0;
@@ -205,6 +209,7 @@ Messages
           animation: bounce 500ms linear both;
 }
 .messages .message.loading::before {
+  -webkit-filter: blur(0);
   position: absolute;
   top: 50%;
   left: 50%;
@@ -226,6 +231,7 @@ Messages
           animation-delay: .15s;
 }
 .messages .message.loading span {
+  -webkit-filter: blur(0);
   display: block;
   font-size: 0;
   width: 20px;
@@ -233,6 +239,7 @@ Messages
   position: relative;
 }
 .messages .message.loading span::before {
+  -webkit-filter: blur(0);
   position: absolute;
   top: 50%;
   left: 50%;
@@ -252,6 +259,7 @@ Messages
   margin-left: -7px;
 }
 .messages .message.loading span::after {
+  -webkit-filter: blur(0);
   position: absolute;
   top: 50%;
   left: 50%;
@@ -302,6 +310,7 @@ Message Box
   color: transparent;
 }
 .message-box .message-submit {
+  -webkit-filter: blur(0);
   position: absolute;
   z-index: 1;
   top: 9px;
