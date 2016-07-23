@@ -79,14 +79,14 @@ position: absolute;
 
 #tab1 {
   width: 90vw;
-  background-color: #31D55B;
+  background-color: #05A6F0;
 }
 #tab1::after {
   content: 'Exp1';
   position: absolute;
   width: 5vw;
   height: 25vh;
-  background: #31D55B;
+  background: #05A6F0;
   border-radius: 0 20px 20px 0;
   top: 75%;
   right: -5vw;
@@ -96,14 +96,14 @@ position: absolute;
 
 #tab2 {
   width: 85vw;
-  background-color: #FBA956;
+  background-color: #81BC06;
 }
 #tab2::after {
   content: 'Pject2';
   position: absolute;
   width: 5vw;
   height: 25vh;
-  background: #FBA956;
+  background: #81BC06;
   border-radius: 0 20px 20px 0;
   top: 50%;
   right: -5vw;
@@ -111,14 +111,14 @@ position: absolute;
 
 #tab3 {
   width: 80vw;
-  background-color: #078CDA;
+  background-color: #F35325;
 }
 #tab3::after {
   content: 'Skool3';
   position: absolute;
   width: 5vw;
   height: 25vh;
-  background: #078CDA;
+  background: #F35325;
   border-radius: 0 20px 20px 0;
   top: 25%;
   right: -5vw;
@@ -126,14 +126,14 @@ position: absolute;
 
 #tab4 {
   width: 75vw;
-  background-color: #FA0864;
+  background-color: #FFBA08;
 }
 #tab4::after {
   content: 'Edu4';
   position: absolute;
   width: 5vw;
   height: 25vh;
-  background: #FA0864;
+  background: #FFBA08;
   border-radius: 0 20px 20px 0;
   top: 0;
   right: -5vw;
