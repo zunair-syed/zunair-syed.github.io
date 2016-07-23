@@ -81,12 +81,17 @@ position: absolute;
   width: 90vw;
   background-color: #05A6F0;
 }
-#tab1::after {
-  content: 'Exp1';
+#tab1::after { /*Experience (coop)*/
+  content: "";
+  background-image: url("../img/exp_tab.png") ;
+  background-color: #05A6F0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+
   position: absolute;
   width: 5vw;
   height: 25vh;
-  background: #05A6F0;
   border-radius: 0 20px 20px 0;
   top: 75%;
   right: -5vw;
@@ -98,12 +103,14 @@ position: absolute;
   width: 85vw;
   background-color: #FFBA08;
 }
-#tab2::after {
+#tab2::after { /*Projects*/
   content: "";
-  background-image: url("../img/zunair.png") ;
+  background-image: url("../img/prj_tab.png") ;
+  background-color: #FFBA08;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
+
   position: absolute;
   width: 5vw;
   height: 25vh;
@@ -116,12 +123,17 @@ position: absolute;
   width: 80vw;
   background-color: #81BC06;
 }
-#tab3::after {
-  content: '/img/zunair.png';
+#tab3::after { /* Education */
+  content: "";
+  background-image: url("../img/edu_tab.png") ;
+  background-color: #81BC06;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+
   position: absolute;
   width: 5vw;
   height: 25vh;
-  background: #81BC06;
   border-radius: 0 20px 20px 0;
   top: 25%;
   right: -5vw;
@@ -131,12 +143,17 @@ position: absolute;
   width: 75vw;
   background-color: #F35325;
 }
-#tab4::after {
-  content: 'Edu4';
+#tab4::after { /* AMA and fun? */
+  content: "";
+  background-image: url("../img/edu_tab.png") ;
+  background-color: #F35325;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+
   position: absolute;
   width: 5vw;
   height: 25vh;
-  background: #F35325;
   border-radius: 0 20px 20px 0;
   top: 0;
   right: -5vw;
