@@ -1,0 +1,1808 @@
+@font-face
+{
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: 700;
+	src: local("Montserrat-Bold"),url(//themes.googleusercontent.com/static/fonts/montserrat/v4/IQHow_FEYlDC4Gzy_m8fcnbFhgvWbfSbdVg11QabG8w.woff) format("woff");
+}
+@font-face
+{
+	font-family: "Open Sans";
+	font-style: normal;
+	font-weight: 400;
+	src: local("Open Sans"),local("OpenSans"),url(//themes.googleusercontent.com/static/fonts/opensans/v8/cJZKeOuBrn4kERxqtaUH3bO3LdcAZYWl9Si6vvxL-qU.woff) format("woff");
+}
+@-webkit-keyframes fadein
+{
+	from
+	{
+		opacity: 0;
+	}
+	to
+	{
+		opacity: 1;
+	}
+}
+@keyframes fadein
+{
+	from
+	{
+		opacity: 0;
+	}
+	to
+	{
+		opacity: 1;
+	}
+}
+@-webkit-keyframes bounce
+{
+	0%,100%,20%,50%,80%
+	{
+		bottom: 10px;
+	}
+	40%
+	{
+		bottom: 30px;
+	}
+	60%
+	{
+		bottom: 15px;
+	}
+}
+@keyframes bounce
+{
+	0%,100%,20%,50%,80%
+	{
+		bottom: 10px;
+	}
+	40%
+	{
+		bottom: 30px;
+	}
+	60%
+	{
+		bottom: 15px;
+	}
+}
+@-webkit-keyframes glideDown
+{
+	from
+	{
+		transform: translateY(20px);
+		webkit-transform: translateY(20px);
+	}
+	to
+	{
+		transform: translateY(0);
+		webkit-transform: translateY(0);
+	}
+}
+@keyframes glideDown
+{
+	from
+	{
+		ms-transform: translateY(20px);
+		transform: translateY(20px);
+		webkit-transform: translateY(20px);
+	}
+	to
+	{
+		ms-transform: translateY(0);
+		transform: translateY(0);
+		webkit-transform: translateY(0);
+	}
+}
+a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,caption,center,cite,code,dd,del,details,dfn,div,dl,dt,em,embed,figcaption,figure,footer,form,h1,h2,h3,h4,h5,h6,header,hgroup,html,i,iframe,img,ins,kbd,label,legend,li fieldset,mark,menu,nav,object,ol,output,p,pre,q,ruby,s,samp,section,small,span,strike,strong,sub,summary,sup,table,tbody,td,tfoot,th,thead,time,tr,tt,u,ul,var,video
+{
+	border: 0;
+	font: inherit;
+	margin: 0;
+	padding: 0;
+	vertical-align: baseline;
+}
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section
+{
+	display: block;
+}
+body
+{
+	line-height: 1;
+}
+ol,ul
+{
+	list-style: none;
+}
+blockquote,q
+{
+	quotes: none;
+}
+blockquote:after,blockquote:before,q:after,q:before
+{
+	content: "";
+	content: none;
+}
+table
+{
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+a
+{
+	color: inherit;
+	text-decoration: none;
+}
+*
+{
+	box-sizing: border-box;
+	moz-box-sizing: border-box;
+	webkit-box-sizing: border-box;
+}
+html
+{
+	webkit-font-smoothing: antialiased;
+}
+body,html
+{
+	height: 100%;
+}
+h1
+{
+	font-size: 60px;
+}
+h2
+{
+	font-size: 46px;
+}
+h3
+{
+	font-size: 36px;
+}
+h4
+{
+	font-size: 30px;
+}
+h5
+{
+	font-size: 20px;
+}
+h6
+{
+	font-size: 18px;
+}
+p
+{
+	font-size: 16px;
+}
+em
+{
+	font-style: italic;
+}
+strong
+{
+	font-weight: 700;
+}
+button
+{
+	background: 0 0;
+	border: 0;
+	outline: 0;
+	webkit-appearance: none;
+}
+.pageContent
+{
+	font-family: "Open Sans","Helvetica Neue Thin",HelveticaNeue-Thin,"helvetica neue",helvetica,arial,"lucida grande",sans-serif;
+	height: 100%;
+}
+header
+{
+	background-color: #ea5f4e;
+	height: 100%;
+	overflow: hidden;
+	text-align: center;
+}
+header .centerBox
+{
+	height: 500px;
+	left: 50%;
+	margin-left: -350px;
+	margin-top: -250px;
+	position: absolute;
+	top: 50%;
+	width: 700px;
+}
+@media not all and (min-width:1000px)
+{
+	header .centerBox
+	{
+		margin-left: -150px;
+		width: 300px;
+	}
+}
+header .centerBox .name
+{
+	animation-delay: 0ms,0ms;
+	animation-duration: 1000ms,1000ms;
+	animation-fill-mode: forwards,none;
+	animation-name: fadein,glideDown;
+	animation-timing-function: ease-in-out,ease-in-out;
+	color: #222;
+	font-family: Montserrat,"Helvetica Neue",Arial,sans-serif;
+	font-size: 50px;
+	font-weight: 700;
+	left: 4px;
+	letter-spacing: 9px;
+	margin: 12px 0;
+	padding: 40px 0;
+	text-align: center;
+	text-transform: uppercase;
+	webkit-animation-delay: 0ms,0ms;
+	webkit-animation-duration: 1000ms,1000ms;
+	webkit-animation-fill-mode: forwards,none;
+	webkit-animation-name: fadein,glideDown;
+	webkit-animation-timing-function: ease-in-out,ease-in-out;
+}
+@media not all and (min-width:1000px)
+{
+	header .centerBox .name
+	{
+		font-size: 26px;
+		line-height: 2;
+		padding-bottom: 0;
+	}
+}
+header .centerBox .bio
+{
+	animation-delay: 300ms,300ms;
+	animation-duration: 1000ms,1000ms;
+	animation-fill-mode: forwards,none;
+	animation-name: fadein,glideDown;
+	animation-timing-function: ease-in-out,ease-in-out;
+	color: #d23934;
+	font-size: 26px;
+	margin-bottom: 30px;
+	webkit-animation-delay: 300ms,300ms;
+	webkit-animation-duration: 1000ms,1000ms;
+	webkit-animation-fill-mode: forwards,none;
+	webkit-animation-name: fadein,glideDown;
+	webkit-animation-timing-function: ease-in-out,ease-in-out;
+}
+header .centerBox .bio .bullet
+{
+	padding: 0 10px;
+}
+@media not all and (min-width:1000px)
+{
+	header .centerBox .bio
+	{
+		font-size: 16px;
+	}
+}
+header .centerBox ul
+{
+	animation-delay: 600ms,600ms;
+	animation-duration: 1000ms,1000ms;
+	animation-fill-mode: forwards,none;
+	animation-name: fadein,glideDown;
+	animation-timing-function: ease-in-out,ease-in-out;
+	webkit-animation-delay: 600ms,600ms;
+	webkit-animation-duration: 1000ms,1000ms;
+	webkit-animation-fill-mode: forwards,none;
+	webkit-animation-name: fadein,glideDown;
+	webkit-animation-timing-function: ease-in-out,ease-in-out;
+}
+header .centerBox ul li
+{
+	color: #d23934;
+	font-size: 26px;
+	letter-spacing: 2px;
+	line-height: 2em;
+	transition: color 200ms ease;
+	webkit-transition: color 200ms ease;
+}
+header .centerBox ul li:hover
+{
+	color: #ebebeb;
+}
+@media not all and (min-width:1000px)
+{
+	header .centerBox ul li
+	{
+		color: #fff;
+	}
+}
+header .arrow
+{
+	animation: bounce 2s infinite;
+	bottom: 10px;
+	color: rgba(255,255,255,.3);
+	cursor: pointer;
+	font-size: 50px;
+	left: 50%;
+	margin-left: -50px;
+	position: absolute;
+	transition: color 200ms ease;
+	webkit-animation: bounce 2s infinite;
+	webkit-transition: color 200ms ease;
+	width: 100px;
+}
+header .arrow i
+{
+	animation-delay: 1000ms,1000ms;
+	animation-duration: 1000ms,1000ms;
+	animation-fill-mode: forwards,none;
+	animation-name: fadein,glideDown;
+	animation-timing-function: ease-in-out,ease-in-out;
+	webkit-animation-delay: 1000ms,1000ms;
+	webkit-animation-duration: 1000ms,1000ms;
+	webkit-animation-fill-mode: forwards,none;
+	webkit-animation-name: fadein,glideDown;
+	webkit-animation-timing-function: ease-in-out,ease-in-out;
+}
+header .arrowhover
+{
+	color: rgba(255,255,255,.8);
+}
+section#projects
+{
+	background: linear-gradient(#f9f9f9,#f3f3f3);
+	background: -webkit-gradient(linear,left top,left bottom,from(#f9f9f9),to(#f3f3f3));
+	background: -webkit-linear-gradient(#f9f9f9,#f3f3f3);
+}
+@media all and (min-width:1000px)
+{
+	section#projects.show>.title
+	{
+		animation-delay: 0ms,0ms;
+		animation-duration: 1000ms,1000ms;
+		animation-fill-mode: forwards,none;
+		animation-name: fadein,glideDown;
+		animation-timing-function: ease-in-out,ease-in-out;
+		webkit-animation-delay: 0ms,0ms;
+		webkit-animation-duration: 1000ms,1000ms;
+		webkit-animation-fill-mode: forwards,none;
+		webkit-animation-name: fadein,glideDown;
+		webkit-animation-timing-function: ease-in-out,ease-in-out;
+	}
+	section#projects.show .cardLayout>a:nth-child(0) .card
+	{
+		animation-delay: 200ms,200ms;
+		animation-duration: 1000ms,1000ms;
+		animation-fill-mode: forwards,none;
+		animation-name: fadein,glideDown;
+		animation-timing-function: ease-in-out,ease-in-out;
+		webkit-animation-delay: 200ms,200ms;
+		webkit-animation-duration: 1000ms,1000ms;
+		webkit-animation-fill-mode: forwards,none;
+		webkit-animation-name: fadein,glideDown;
+		webkit-animation-timing-function: ease-in-out,ease-in-out;
+	}
+	section#projects.show .cardLayout>a:nth-child(1) .card
+	{
+		animation-delay: 350ms,350ms;
+		animation-duration: 1000ms,1000ms;
+		animation-fill-mode: forwards,none;
+		animation-name: fadein,glideDown;
+		animation-timing-function: ease-in-out,ease-in-out;
+		webkit-animation-delay: 350ms,350ms;
+		webkit-animation-duration: 1000ms,1000ms;
+		webkit-animation-fill-mode: forwards,none;
+		webkit-animation-name: fadein,glideDown;
+		webkit-animation-timing-function: ease-in-out,ease-in-out;
+	}
+	section#projects.show .cardLayout>a:nth-child(2) .card
+	{
+		animation-delay: 500ms,500ms;
+		animation-duration: 1000ms,1000ms;
+		animation-fill-mode: forwards,none;
+		animation-name: fadein,glideDown;
+		animation-timing-function: ease-in-out,ease-in-out;
+		webkit-animation-delay: 500ms,500ms;
+		webkit-animation-duration: 1000ms,1000ms;
+		webkit-animation-fill-mode: forwards,none;
+		webkit-animation-name: fadein,glideDown;
+		webkit-animation-timing-function: ease-in-out,ease-in-out;
+	}
+	section#projects.show .cardLayout>a:nth-child(3) .card
+	{
+		animation-delay: 650ms,650ms;
+		animation-duration: 1000ms,1000ms;
+		animation-fill-mode: forwards,none;
+		animation-name: fadein,glideDown;
+		animation-timing-function: ease-in-out,ease-in-out;
+		webkit-animation-delay: 650ms,650ms;
+		webkit-animation-duration: 1000ms,1000ms;
+		webkit-animation-fill-mode: forwards,none;
+		webkit-animation-name: fadein,glideDown;
+		webkit-animation-timing-function: ease-in-out,ease-in-out;
+	}
+	section#projects.show .cardLayout>a:nth-child(4) .card
+	{
+		animation-delay: 800ms,800ms;
+		animation-duration: 1000ms,1000ms;
+		animation-fill-mode: forwards,none;
+		animation-name: fadein,glideDown;
+		animation-timing-function: ease-in-out,ease-in-out;
+		webkit-animation-delay: 800ms,800ms;
+		webkit-animation-duration: 1000ms,1000ms;
+		webkit-animation-fill-mode: forwards,none;
+		webkit-animation-name: fadein,glideDown;
+		webkit-animation-timing-function: ease-in-out,ease-in-out;
+	}
+	section#projects.show .cardLayout>a:nth-child(5) .card
+	{
+		animation-delay: 950ms,950ms;
+		animation-duration: 1000ms,1000ms;
+		animation-fill-mode: forwards,none;
+		animation-name: fadein,glideDown;
+		animation-timing-function: ease-in-out,ease-in-out;
+		webkit-animation-delay: 950ms,950ms;
+		webkit-animation-duration: 1000ms,1000ms;
+		webkit-animation-fill-mode: forwards,none;
+		webkit-animation-name: fadein,glideDown;
+		webkit-animation-timing-function: ease-in-out,ease-in-out;
+	}
+	section#projects.show .cardLayout>a:nth-child(6) .card
+	{
+		animation-delay: 1100ms,1100ms;
+		animation-duration: 1000ms,1000ms;
+		animation-fill-mode: forwards,none;
+		animation-name: fadein,glideDown;
+		animation-timing-function: ease-in-out,ease-in-out;
+		webkit-animation-delay: 1100ms,1100ms;
+		webkit-animation-duration: 1000ms,1000ms;
+		webkit-animation-fill-mode: forwards,none;
+		webkit-animation-name: fadein,glideDown;
+		webkit-animation-timing-function: ease-in-out,ease-in-out;
+	}
+	section#projects.show .cardLayout>a:nth-child(7) .card
+	{
+		animation-delay: 1250ms,1250ms;
+		animation-duration: 1000ms,1000ms;
+		animation-fill-mode: forwards,none;
+		animation-name: fadein,glideDown;
+		animation-timing-function: ease-in-out,ease-in-out;
+		webkit-animation-delay: 1250ms,1250ms;
+		webkit-animation-duration: 1000ms,1000ms;
+		webkit-animation-fill-mode: forwards,none;
+		webkit-animation-name: fadein,glideDown;
+		webkit-animation-timing-function: ease-in-out,ease-in-out;
+	}
+	section#projects.show .cardLayout>a:nth-child(8) .card
+	{
+		animation-delay: 1400ms,1400ms;
+		animation-duration: 1000ms,1000ms;
+		animation-fill-mode: forwards,none;
+		animation-name: fadein,glideDown;
+		animation-timing-function: ease-in-out,ease-in-out;
+		webkit-animation-delay: 1400ms,1400ms;
+		webkit-animation-duration: 1000ms,1000ms;
+		webkit-animation-fill-mode: forwards,none;
+		webkit-animation-name: fadein,glideDown;
+		webkit-animation-timing-function: ease-in-out,ease-in-out;
+	}
+	section#projects.show .cardLayout>a:nth-child(9) .card
+	{
+		animation-delay: 1550ms,1550ms;
+		animation-duration: 1000ms,1000ms;
+		animation-fill-mode: forwards,none;
+		animation-name: fadein,glideDown;
+		animation-timing-function: ease-in-out,ease-in-out;
+		webkit-animation-delay: 1550ms,1550ms;
+		webkit-animation-duration: 1000ms,1000ms;
+		webkit-animation-fill-mode: forwards,none;
+		webkit-animation-name: fadein,glideDown;
+		webkit-animation-timing-function: ease-in-out,ease-in-out;
+	}
+	section#projects.show .cardLayout>a:nth-child(10) .card
+	{
+		animation-delay: 1700ms,1700ms;
+		animation-duration: 1000ms,1000ms;
+		animation-fill-mode: forwards,none;
+		animation-name: fadein,glideDown;
+		animation-timing-function: ease-in-out,ease-in-out;
+		webkit-animation-delay: 1700ms,1700ms;
+		webkit-animation-duration: 1000ms,1000ms;
+		webkit-animation-fill-mode: forwards,none;
+		webkit-animation-name: fadein,glideDown;
+		webkit-animation-timing-function: ease-in-out,ease-in-out;
+	}
+	section#projects.show .cardLayout>a:nth-child(11) .card
+	{
+		animation-delay: 1850ms,1850ms;
+		animation-duration: 1000ms,1000ms;
+		animation-fill-mode: forwards,none;
+		animation-name: fadein,glideDown;
+		animation-timing-function: ease-in-out,ease-in-out;
+		webkit-animation-delay: 1850ms,1850ms;
+		webkit-animation-duration: 1000ms,1000ms;
+		webkit-animation-fill-mode: forwards,none;
+		webkit-animation-name: fadein,glideDown;
+		webkit-animation-timing-function: ease-in-out,ease-in-out;
+	}
+	section#projects.show .cardLayout>a:nth-child(12) .card
+	{
+		animation-delay: 2000ms,2000ms;
+		animation-duration: 1000ms,1000ms;
+		animation-fill-mode: forwards,none;
+		animation-name: fadein,glideDown;
+		animation-timing-function: ease-in-out,ease-in-out;
+		webkit-animation-delay: 2000ms,2000ms;
+		webkit-animation-duration: 1000ms,1000ms;
+		webkit-animation-fill-mode: forwards,none;
+		webkit-animation-name: fadein,glideDown;
+		webkit-animation-timing-function: ease-in-out,ease-in-out;
+	}
+	section#projects.show .cardLayout>a:nth-child(13) .card
+	{
+		animation-delay: 2150ms,2150ms;
+		animation-duration: 1000ms,1000ms;
+		animation-fill-mode: forwards,none;
+		animation-name: fadein,glideDown;
+		animation-timing-function: ease-in-out,ease-in-out;
+		webkit-animation-delay: 2150ms,2150ms;
+		webkit-animation-duration: 1000ms,1000ms;
+		webkit-animation-fill-mode: forwards,none;
+		webkit-animation-name: fadein,glideDown;
+		webkit-animation-timing-function: ease-in-out,ease-in-out;
+	}
+	section#projects.show .cardLayout>a:nth-child(14) .card
+	{
+		animation-delay: 2300ms,2300ms;
+		animation-duration: 1000ms,1000ms;
+		animation-fill-mode: forwards,none;
+		animation-name: fadein,glideDown;
+		animation-timing-function: ease-in-out,ease-in-out;
+		webkit-animation-delay: 2300ms,2300ms;
+		webkit-animation-duration: 1000ms,1000ms;
+		webkit-animation-fill-mode: forwards,none;
+		webkit-animation-name: fadein,glideDown;
+		webkit-animation-timing-function: ease-in-out,ease-in-out;
+	}
+	section#projects.show .cardLayout>a:nth-child(15) .card
+	{
+		animation-delay: 2450ms,2450ms;
+		animation-duration: 1000ms,1000ms;
+		animation-fill-mode: forwards,none;
+		animation-name: fadein,glideDown;
+		animation-timing-function: ease-in-out,ease-in-out;
+		webkit-animation-delay: 2450ms,2450ms;
+		webkit-animation-duration: 1000ms,1000ms;
+		webkit-animation-fill-mode: forwards,none;
+		webkit-animation-name: fadein,glideDown;
+		webkit-animation-timing-function: ease-in-out,ease-in-out;
+	}
+	section#projects.show .cardLayout>a:nth-child(16) .card
+	{
+		animation-delay: 2600ms,2600ms;
+		animation-duration: 1000ms,1000ms;
+		animation-fill-mode: forwards,none;
+		animation-name: fadein,glideDown;
+		animation-timing-function: ease-in-out,ease-in-out;
+		webkit-animation-delay: 2600ms,2600ms;
+		webkit-animation-duration: 1000ms,1000ms;
+		webkit-animation-fill-mode: forwards,none;
+		webkit-animation-name: fadein,glideDown;
+		webkit-animation-timing-function: ease-in-out,ease-in-out;
+	}
+	section#projects.show .cardLayout>a:nth-child(17) .card
+	{
+		animation-delay: 2750ms,2750ms;
+		animation-duration: 1000ms,1000ms;
+		animation-fill-mode: forwards,none;
+		animation-name: fadein,glideDown;
+		animation-timing-function: ease-in-out,ease-in-out;
+		webkit-animation-delay: 2750ms,2750ms;
+		webkit-animation-duration: 1000ms,1000ms;
+		webkit-animation-fill-mode: forwards,none;
+		webkit-animation-name: fadein,glideDown;
+		webkit-animation-timing-function: ease-in-out,ease-in-out;
+	}
+	section#projects.show .cardLayout>a:nth-child(18) .card
+	{
+		animation-delay: 2900ms,2900ms;
+		animation-duration: 1000ms,1000ms;
+		animation-fill-mode: forwards,none;
+		animation-name: fadein,glideDown;
+		animation-timing-function: ease-in-out,ease-in-out;
+		webkit-animation-delay: 2900ms,2900ms;
+		webkit-animation-duration: 1000ms,1000ms;
+		webkit-animation-fill-mode: forwards,none;
+		webkit-animation-name: fadein,glideDown;
+		webkit-animation-timing-function: ease-in-out,ease-in-out;
+	}
+	section#projects.show .cardLayout>a:nth-child(19) .card
+	{
+		animation-delay: 3050ms,3050ms;
+		animation-duration: 1000ms,1000ms;
+		animation-fill-mode: forwards,none;
+		animation-name: fadein,glideDown;
+		animation-timing-function: ease-in-out,ease-in-out;
+		webkit-animation-delay: 3050ms,3050ms;
+		webkit-animation-duration: 1000ms,1000ms;
+		webkit-animation-fill-mode: forwards,none;
+		webkit-animation-name: fadein,glideDown;
+		webkit-animation-timing-function: ease-in-out,ease-in-out;
+	}
+	section#projects.show .cardLayout>a:nth-child(20) .card
+	{
+		animation-delay: 3200ms,3200ms;
+		animation-duration: 1000ms,1000ms;
+		animation-fill-mode: forwards,none;
+		animation-name: fadein,glideDown;
+		animation-timing-function: ease-in-out,ease-in-out;
+		webkit-animation-delay: 3200ms,3200ms;
+		webkit-animation-duration: 1000ms,1000ms;
+		webkit-animation-fill-mode: forwards,none;
+		webkit-animation-name: fadein,glideDown;
+		webkit-animation-timing-function: ease-in-out,ease-in-out;
+	}
+	section#projects.show .cardLayout>a:nth-child(21) .card
+	{
+		animation-delay: 3350ms,3350ms;
+		animation-duration: 1000ms,1000ms;
+		animation-fill-mode: forwards,none;
+		animation-name: fadein,glideDown;
+		animation-timing-function: ease-in-out,ease-in-out;
+		webkit-animation-delay: 3350ms,3350ms;
+		webkit-animation-duration: 1000ms,1000ms;
+		webkit-animation-fill-mode: forwards,none;
+		webkit-animation-name: fadein,glideDown;
+		webkit-animation-timing-function: ease-in-out,ease-in-out;
+	}
+	section#projects.show .cardLayout>a:nth-child(22) .card
+	{
+		animation-delay: 3500ms,3500ms;
+		animation-duration: 1000ms,1000ms;
+		animation-fill-mode: forwards,none;
+		animation-name: fadein,glideDown;
+		animation-timing-function: ease-in-out,ease-in-out;
+		webkit-animation-delay: 3500ms,3500ms;
+		webkit-animation-duration: 1000ms,1000ms;
+		webkit-animation-fill-mode: forwards,none;
+		webkit-animation-name: fadein,glideDown;
+		webkit-animation-timing-function: ease-in-out,ease-in-out;
+	}
+	section#projects.show .cardLayout>a:nth-child(23) .card
+	{
+		animation-delay: 3650ms,3650ms;
+		animation-duration: 1000ms,1000ms;
+		animation-fill-mode: forwards,none;
+		animation-name: fadein,glideDown;
+		animation-timing-function: ease-in-out,ease-in-out;
+		webkit-animation-delay: 3650ms,3650ms;
+		webkit-animation-duration: 1000ms,1000ms;
+		webkit-animation-fill-mode: forwards,none;
+		webkit-animation-name: fadein,glideDown;
+		webkit-animation-timing-function: ease-in-out,ease-in-out;
+	}
+	section#projects.show .cardLayout>a:nth-child(24) .card
+	{
+		animation-delay: 3800ms,3800ms;
+		animation-duration: 1000ms,1000ms;
+		animation-fill-mode: forwards,none;
+		animation-name: fadein,glideDown;
+		animation-timing-function: ease-in-out,ease-in-out;
+		webkit-animation-delay: 3800ms,3800ms;
+		webkit-animation-duration: 1000ms,1000ms;
+		webkit-animation-fill-mode: forwards,none;
+		webkit-animation-name: fadein,glideDown;
+		webkit-animation-timing-function: ease-in-out,ease-in-out;
+	}
+	section#projects.show .cardLayout>a:nth-child(25) .card
+	{
+		animation-delay: 3950ms,3950ms;
+		animation-duration: 1000ms,1000ms;
+		animation-fill-mode: forwards,none;
+		animation-name: fadein,glideDown;
+		animation-timing-function: ease-in-out,ease-in-out;
+		webkit-animation-delay: 3950ms,3950ms;
+		webkit-animation-duration: 1000ms,1000ms;
+		webkit-animation-fill-mode: forwards,none;
+		webkit-animation-name: fadein,glideDown;
+		webkit-animation-timing-function: ease-in-out,ease-in-out;
+	}
+	section#projects.show .cardLayout>a:nth-child(26) .card
+	{
+		animation-delay: 4100ms,4100ms;
+		animation-duration: 1000ms,1000ms;
+		animation-fill-mode: forwards,none;
+		animation-name: fadein,glideDown;
+		animation-timing-function: ease-in-out,ease-in-out;
+		webkit-animation-delay: 4100ms,4100ms;
+		webkit-animation-duration: 1000ms,1000ms;
+		webkit-animation-fill-mode: forwards,none;
+		webkit-animation-name: fadein,glideDown;
+		webkit-animation-timing-function: ease-in-out,ease-in-out;
+	}
+	section#projects.show .cardLayout>a:nth-child(27) .card
+	{
+		animation-delay: 4250ms,4250ms;
+		animation-duration: 1000ms,1000ms;
+		animation-fill-mode: forwards,none;
+		animation-name: fadein,glideDown;
+		animation-timing-function: ease-in-out,ease-in-out;
+		webkit-animation-delay: 4250ms,4250ms;
+		webkit-animation-duration: 1000ms,1000ms;
+		webkit-animation-fill-mode: forwards,none;
+		webkit-animation-name: fadein,glideDown;
+		webkit-animation-timing-function: ease-in-out,ease-in-out;
+	}
+	section#projects.show .cardLayout>a:nth-child(28) .card
+	{
+		animation-delay: 4400ms,4400ms;
+		animation-duration: 1000ms,1000ms;
+		animation-fill-mode: forwards,none;
+		animation-name: fadein,glideDown;
+		animation-timing-function: ease-in-out,ease-in-out;
+		webkit-animation-delay: 4400ms,4400ms;
+		webkit-animation-duration: 1000ms,1000ms;
+		webkit-animation-fill-mode: forwards,none;
+		webkit-animation-name: fadein,glideDown;
+		webkit-animation-timing-function: ease-in-out,ease-in-out;
+	}
+	section#projects.show .cardLayout>a:nth-child(29) .card
+	{
+		animation-delay: 4550ms,4550ms;
+		animation-duration: 1000ms,1000ms;
+		animation-fill-mode: forwards,none;
+		animation-name: fadein,glideDown;
+		animation-timing-function: ease-in-out,ease-in-out;
+		webkit-animation-delay: 4550ms,4550ms;
+		webkit-animation-duration: 1000ms,1000ms;
+		webkit-animation-fill-mode: forwards,none;
+		webkit-animation-name: fadein,glideDown;
+		webkit-animation-timing-function: ease-in-out,ease-in-out;
+	}
+	section#projects.show .cardLayout>a:nth-child(30) .card
+	{
+		animation-delay: 4700ms,4700ms;
+		animation-duration: 1000ms,1000ms;
+		animation-fill-mode: forwards,none;
+		animation-name: fadein,glideDown;
+		animation-timing-function: ease-in-out,ease-in-out;
+		webkit-animation-delay: 4700ms,4700ms;
+		webkit-animation-duration: 1000ms,1000ms;
+		webkit-animation-fill-mode: forwards,none;
+		webkit-animation-name: fadein,glideDown;
+		webkit-animation-timing-function: ease-in-out,ease-in-out;
+	}
+}
+section#projects>.title
+{
+	color: #222;
+	font-family: Montserrat,"Helvetica Neue",Arial,sans-serif;
+	font-size: 40px;
+	font-weight: 700;
+	letter-spacing: 9px;
+	padding: 40px 0;
+	text-align: center;
+	text-transform: uppercase;
+}
+section#projects>.title.sub
+{
+	color: #bebebe;
+	font-family: Montserrat,"Helvetica Neue",Arial,sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	letter-spacing: 4px;
+	padding: 10px 0;
+}
+@media all and (min-width:1000px)
+{
+	section#projects>.title
+	{
+		opacity: 0;
+	}
+}
+section#projects .cardLayout
+{
+	margin-bottom: 20px;
+	position: relative;
+	text-align: center;
+}
+@media all and (min-width:1000px)
+{
+	section#projects .cardLayout .card
+	{
+		opacity: 0;
+	}
+}
+section#projects .cardLayout .card
+{
+	background-color: red;
+	border-radius: 5px;
+	color: #fff;
+	display: inline-block;
+	height: 300px;
+	margin: 30px;
+	overflow: hidden;
+	position: relative;
+	text-align: center;
+	transition: transform 200ms;
+	webkit-transition: -webkit-transform 200ms;
+	width: 300px;
+}
+@media not all and (min-width:1000px)
+{
+	section#projects .cardLayout .card
+	{
+		margin: 15px 30px;
+		width: calc(100% - 60px);
+		width: -webkit-calc(100% - 60px);
+	}
+}
+@media (min-width:600px)
+{
+	section#projects .cardLayout .card
+	{
+		margin: 30px;
+		width: 300px;
+	}
+}
+section#projects .cardLayout .card:hover
+{
+	ms-transform: scale(1.1);
+	transform: scale(1.1);
+	webkit-transform: scale(1.1);
+}
+section#projects .cardLayout .card .photo
+{
+	left: 0;
+	margin: auto;
+	position: absolute;
+	right: 0;
+	top: 40px;
+	width: 140px;
+}
+section#projects .cardLayout .card .textArea
+{
+	bottom: 0;
+	padding: 10px 10px 20px;
+	position: absolute;
+	text-align: left;
+	width: 100%;
+}
+section#projects .cardLayout .card .textArea .title
+{
+	font-size: 16px;
+	font-weight: 700;
+	padding-bottom: 10px;
+	transition: color 200ms;
+	webkit-transition: color 200ms;
+}
+section#projects .cardLayout .card .textArea .title:after
+{
+	content: '�';
+	padding-left: 10px;
+}
+section#projects .cardLayout .card .textArea .description
+{
+	font-size: 12px;
+	line-height: 1.5;
+}
+section#projects .cardLayout .card .textArea
+{
+	background-color: #e60000;
+}
+section#projects .cardLayout .card#eagleeye
+{
+	background-color: #a63533;
+}
+section#projects .cardLayout .card#eagleeye .textArea
+{
+	background-color: #95302e;
+}
+section#projects .cardLayout .card#eagleeye .photo
+{
+	width: 180px;
+}
+section#projects .cardLayout .card#algodb
+{
+	background-color: #84c1a0;
+}
+section#projects .cardLayout .card#algodb .textArea
+{
+	background-color: #6eb68f;
+}
+section#projects .cardLayout .card#nestvacationtracker
+{
+	background-color: #3498db;
+}
+section#projects .cardLayout .card#nestvacationtracker .textArea
+{
+	background-color: #258bcf;
+}
+section#projects .cardLayout .card#capture
+{
+	background-color: #2ecc71;
+}
+section#projects .cardLayout .card#capture .textArea
+{
+	background-color: #29b866;
+}
+section#projects .cardLayout .card#harbor
+{
+	background-color: #f1c40f;
+}
+section#projects .cardLayout .card#harbor .textArea
+{
+	background-color: #dab10d;
+}
+section#projects .cardLayout .card#harmonic
+{
+	background-color: #e8843b;
+}
+section#projects .cardLayout .card#harmonic .textArea
+{
+	background-color: #e57421;
+}
+section#projects .cardLayout .card#leappong
+{
+	background-color: #b3d675;
+}
+section#projects .cardLayout .card#leappong .textArea
+{
+	background-color: #a5ce5b;
+}
+section#projects .cardLayout .card#hnplays2048
+{
+	background-color: #f1b605;
+}
+section#projects .cardLayout .card#hnplays2048 .textArea
+{
+	background-color: #d9a405;
+}
+section#projects .cardLayout .card#milestone
+{
+	background-color: #99528a;
+}
+section#projects .cardLayout .card#milestone .textArea
+{
+	background-color: #8a4a7c;
+}
+section#projects .cardLayout .card#thefourelements
+{
+	background-color: #73322a;
+}
+section#projects .cardLayout .card#thefourelements .textArea
+{
+	background-color: #682d26;
+}
+section#projects .cardLayout .card#cellularwarfare
+{
+	background-color: #416dea;
+}
+section#projects .cardLayout .card#cellularwarfare .textArea
+{
+	background-color: #2658e7;
+}
+section#projects .cardLayout .card#vidwall
+{
+	background-color: #c44c3e;
+}
+section#projects .cardLayout .card#vidwall .textArea
+{
+	background-color: #b24336;
+}
+section#projects .cardLayout .card#glass-ocr
+{
+	background-color: #2a2423;
+}
+section#projects .cardLayout .card#glass-ocr .textArea
+{
+	background-color: #262020;
+}
+section#projects .cardLayout .card#areyouhungrynow
+{
+	background-color: #84c1a0;
+}
+section#projects .cardLayout .card#areyouhungrynow .textArea
+{
+	background-color: #6eb68f;
+}
+section#projects .cardLayout .card#sudosoldiers
+{
+	background-color: #181818;
+}
+section#projects .cardLayout .card#sudosoldiers .textArea
+{
+	background-color: #161616;
+}
+section#projects .cardLayout .card#acadee
+{
+	background-color: #64c8c8;
+}
+section#projects .cardLayout .card#acadee .textArea
+{
+	background-color: #4ec0c0;
+}
+section#projects .cardLayout .card#dubhacks14f
+{
+	background-color: #39275b;
+}
+section#projects .cardLayout .card#dubhacks14f .textArea
+{
+	background-color: #332352;
+}
+section#projects .cardLayout .card#dubhacks15f
+{
+	background-color: #ed1b78;
+}
+section#projects .cardLayout .card#dubhacks15f .textArea
+{
+	background-color: #dc116b;
+}
+section#projects .cardLayout .card#dubhacks15f .photo
+{
+	width: 180px;
+}
+section#projects .cardLayout .card#socketio
+{
+	background-color: #df7065;
+}
+section#projects .cardLayout .card#socketio .textArea
+{
+	background-color: #d9574a;
+}
+section#projects .cardLayout .card#speekr
+{
+	background-color: #03a9f4;
+}
+section#projects .cardLayout .card#speekr .textArea
+{
+	background-color: #0398dc;
+}
+section#projects .cardLayout .card#navi
+{
+	background-color: #1de9c5;
+}
+section#projects .cardLayout .card#navi .textArea
+{
+	background-color: #15d7b5;
+}
+section#projects .cardLayout .card#awear
+{
+	background-color: #15bcdd;
+}
+section#projects .cardLayout .card#awear .textArea
+{
+	background-color: #13a9c7;
+}
+section#projects .cardLayout .card#herder
+{
+	background-color: #ff5057;
+}
+section#projects .cardLayout .card#herder .textArea
+{
+	background-color: #ff2f37;
+}
+section#projects .cardLayout .card#safebaby
+{
+	background-color: #fed156;
+}
+section#projects .cardLayout .card#safebaby .textArea
+{
+	background-color: #fec834;
+}
+section#projects .cardLayout .card#productgrunt
+{
+	background-color: #111;
+}
+section#projects .cardLayout .card#productgrunt .textArea
+{
+	background-color: #0f0f0f;
+}
+section#projects .cardLayout .card#rollen
+{
+	background-color: #45101b;
+}
+section#projects .cardLayout .card#rollen .textArea
+{
+	background-color: #3e0e18;
+}
+section#projects .cardLayout .card#rollen .photo
+{
+	width: 180px;
+}
+section#projects .cardLayout .card#issues
+{
+	background-color: #ecf0f3;
+	color: #41403d;
+}
+section#projects .cardLayout .card#issues .textArea
+{
+	background-color: #cfd9e0;
+}
+section#projects .cardLayout .card#hawk
+{
+	background-color: #f6a65a;
+}
+section#projects .cardLayout .card#hawk .textArea
+{
+	background-color: #f4953a;
+}
+section#projects .cardLayout .card#snappo
+{
+	background-color: #908fb3;
+}
+section#projects .cardLayout .card#snappo .textArea
+{
+	background-color: #7d7ca6;
+}
+section#about
+{
+	background-color: #e8843b;
+	color: #fff;
+}
+@media all and (min-width:1000px)
+{
+	section#about.show>.title
+	{
+		animation-delay: 0ms,0ms;
+		animation-duration: 1000ms,1000ms;
+		animation-fill-mode: forwards,none;
+		animation-name: fadein,glideDown;
+		animation-timing-function: ease-in-out,ease-in-out;
+		webkit-animation-delay: 0ms,0ms;
+		webkit-animation-duration: 1000ms,1000ms;
+		webkit-animation-fill-mode: forwards,none;
+		webkit-animation-name: fadein,glideDown;
+		webkit-animation-timing-function: ease-in-out,ease-in-out;
+	}
+	section#about.show .profile
+	{
+		animation-delay: 300ms,300ms;
+		animation-duration: 1000ms,1000ms;
+		animation-fill-mode: forwards,none;
+		animation-name: fadein,glideDown;
+		animation-timing-function: ease-in-out,ease-in-out;
+		webkit-animation-delay: 300ms,300ms;
+		webkit-animation-duration: 1000ms,1000ms;
+		webkit-animation-fill-mode: forwards,none;
+		webkit-animation-name: fadein,glideDown;
+		webkit-animation-timing-function: ease-in-out,ease-in-out;
+	}
+	section#about.show .longBio
+	{
+		animation-delay: 600ms,600ms;
+		animation-duration: 1000ms,1000ms;
+		animation-fill-mode: forwards,none;
+		animation-name: fadein,glideDown;
+		animation-timing-function: ease-in-out,ease-in-out;
+		webkit-animation-delay: 600ms,600ms;
+		webkit-animation-duration: 1000ms,1000ms;
+		webkit-animation-fill-mode: forwards,none;
+		webkit-animation-name: fadein,glideDown;
+		webkit-animation-timing-function: ease-in-out,ease-in-out;
+	}
+}
+section#about>.title
+{
+	color: #fff;
+	font-family: Montserrat,"Helvetica Neue",Arial,sans-serif;
+	font-size: 40px;
+	font-weight: 700;
+	letter-spacing: 9px;
+	padding: 40px 0;
+	text-align: center;
+	text-transform: uppercase;
+}
+@media all and (min-width:1000px)
+{
+	section#about>.title
+	{
+		opacity: 0;
+	}
+}
+section#about .profile
+{
+	border: 2px dashed rgba(241,181,137,.5);
+	border-radius: 50%;
+	display: block;
+	margin: 0 auto 20px;
+	padding: 10px;
+	text-align: center;
+	width: 200px;
+}
+@media all and (min-width:1000px)
+{
+	section#about .profile
+	{
+		opacity: 0;
+	}
+}
+section#about .longBio
+{
+	font-size: 26px;
+	line-height: 1.5;
+	margin: 0 auto;
+	padding-bottom: 30px;
+	padding-left: 15px;
+	text-indent: 50px;
+	width: 760px;
+}
+section#about .longBio a,section#about .longBio em
+{
+	color: #f1b589;
+}
+section#about .longBio a
+{
+	transition: color 200ms;
+	webkit-transition: color 200ms;
+}
+section#about .longBio a:hover
+{
+	color: #ac5227;
+}
+@media not all and (min-width:1000px)
+{
+	section#about .longBio
+	{
+		font-size: 16px;
+		padding: 30px;
+		width: 100%;
+	}
+}
+@media all and (min-width:1000px)
+{
+	section#about .longBio
+	{
+		opacity: 0;
+	}
+}
+.squareTile
+{
+	background-color: #fff;
+	border-radius: 5%;
+	overflow: hidden;
+	position: relative;
+	width: 100%;
+}
+.squareTile:before
+{
+	content: "";
+	display: block;
+	padding-top: 100%;
+}
+.squareTile .content
+{
+	border-radius: 5%;
+	bottom: 0;
+	left: 0;
+	overflow: hidden;
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+.squareTile .svg
+{
+	height: 100%;
+	width: 100%;
+}
+.squareTile.nor1
+{
+	background-color: #494e54;
+	padding: .1%;
+}
+.squareTile.nor1 img
+{
+	margin-left: 5%;
+	margin-top: 25%;
+	width: 90%;
+}
+section#experience
+{
+	background-color: #49a1a7;
+	color: #fff;
+}
+@media all and (min-width:1000px)
+{
+	section#experience.show>.title
+	{
+		animation-delay: 0ms,0ms;
+		animation-duration: 1000ms,1000ms;
+		animation-fill-mode: forwards,none;
+		animation-name: fadein,glideDown;
+		animation-timing-function: ease-in-out,ease-in-out;
+		webkit-animation-delay: 0ms,0ms;
+		webkit-animation-duration: 1000ms,1000ms;
+		webkit-animation-fill-mode: forwards,none;
+		webkit-animation-name: fadein,glideDown;
+		webkit-animation-timing-function: ease-in-out,ease-in-out;
+	}
+	section#experience.show .experienceList>li:nth-child(0)
+	{
+		animation-delay: 200ms,200ms;
+		animation-duration: 1000ms,1000ms;
+		animation-fill-mode: forwards,none;
+		animation-name: fadein,glideDown;
+		animation-timing-function: ease-in-out,ease-in-out;
+		webkit-animation-delay: 200ms,200ms;
+		webkit-animation-duration: 1000ms,1000ms;
+		webkit-animation-fill-mode: forwards,none;
+		webkit-animation-name: fadein,glideDown;
+		webkit-animation-timing-function: ease-in-out,ease-in-out;
+	}
+	section#experience.show .experienceList>li:nth-child(1)
+	{
+		animation-delay: 450ms,450ms;
+		animation-duration: 1000ms,1000ms;
+		animation-fill-mode: forwards,none;
+		animation-name: fadein,glideDown;
+		animation-timing-function: ease-in-out,ease-in-out;
+		webkit-animation-delay: 450ms,450ms;
+		webkit-animation-duration: 1000ms,1000ms;
+		webkit-animation-fill-mode: forwards,none;
+		webkit-animation-name: fadein,glideDown;
+		webkit-animation-timing-function: ease-in-out,ease-in-out;
+	}
+	section#experience.show .experienceList>li:nth-child(2)
+	{
+		animation-delay: 700ms,700ms;
+		animation-duration: 1000ms,1000ms;
+		animation-fill-mode: forwards,none;
+		animation-name: fadein,glideDown;
+		animation-timing-function: ease-in-out,ease-in-out;
+		webkit-animation-delay: 700ms,700ms;
+		webkit-animation-duration: 1000ms,1000ms;
+		webkit-animation-fill-mode: forwards,none;
+		webkit-animation-name: fadein,glideDown;
+		webkit-animation-timing-function: ease-in-out,ease-in-out;
+	}
+	section#experience.show .experienceList>li:nth-child(3)
+	{
+		animation-delay: 950ms,950ms;
+		animation-duration: 1000ms,1000ms;
+		animation-fill-mode: forwards,none;
+		animation-name: fadein,glideDown;
+		animation-timing-function: ease-in-out,ease-in-out;
+		webkit-animation-delay: 950ms,950ms;
+		webkit-animation-duration: 1000ms,1000ms;
+		webkit-animation-fill-mode: forwards,none;
+		webkit-animation-name: fadein,glideDown;
+		webkit-animation-timing-function: ease-in-out,ease-in-out;
+	}
+	section#experience.show .experienceList>li:nth-child(4)
+	{
+		animation-delay: 1200ms,1200ms;
+		animation-duration: 1000ms,1000ms;
+		animation-fill-mode: forwards,none;
+		animation-name: fadein,glideDown;
+		animation-timing-function: ease-in-out,ease-in-out;
+		webkit-animation-delay: 1200ms,1200ms;
+		webkit-animation-duration: 1000ms,1000ms;
+		webkit-animation-fill-mode: forwards,none;
+		webkit-animation-name: fadein,glideDown;
+		webkit-animation-timing-function: ease-in-out,ease-in-out;
+	}
+	section#experience.show .experienceList>li:nth-child(5)
+	{
+		animation-delay: 1450ms,1450ms;
+		animation-duration: 1000ms,1000ms;
+		animation-fill-mode: forwards,none;
+		animation-name: fadein,glideDown;
+		animation-timing-function: ease-in-out,ease-in-out;
+		webkit-animation-delay: 1450ms,1450ms;
+		webkit-animation-duration: 1000ms,1000ms;
+		webkit-animation-fill-mode: forwards,none;
+		webkit-animation-name: fadein,glideDown;
+		webkit-animation-timing-function: ease-in-out,ease-in-out;
+	}
+	section#experience.show .experienceList>li:nth-child(6)
+	{
+		animation-delay: 1700ms,1700ms;
+		animation-duration: 1000ms,1000ms;
+		animation-fill-mode: forwards,none;
+		animation-name: fadein,glideDown;
+		animation-timing-function: ease-in-out,ease-in-out;
+		webkit-animation-delay: 1700ms,1700ms;
+		webkit-animation-duration: 1000ms,1000ms;
+		webkit-animation-fill-mode: forwards,none;
+		webkit-animation-name: fadein,glideDown;
+		webkit-animation-timing-function: ease-in-out,ease-in-out;
+	}
+	section#experience.show .experienceList>li:nth-child(7)
+	{
+		animation-delay: 1950ms,1950ms;
+		animation-duration: 1000ms,1000ms;
+		animation-fill-mode: forwards,none;
+		animation-name: fadein,glideDown;
+		animation-timing-function: ease-in-out,ease-in-out;
+		webkit-animation-delay: 1950ms,1950ms;
+		webkit-animation-duration: 1000ms,1000ms;
+		webkit-animation-fill-mode: forwards,none;
+		webkit-animation-name: fadein,glideDown;
+		webkit-animation-timing-function: ease-in-out,ease-in-out;
+	}
+	section#experience.show .experienceList>li:nth-child(8)
+	{
+		animation-delay: 2200ms,2200ms;
+		animation-duration: 1000ms,1000ms;
+		animation-fill-mode: forwards,none;
+		animation-name: fadein,glideDown;
+		animation-timing-function: ease-in-out,ease-in-out;
+		webkit-animation-delay: 2200ms,2200ms;
+		webkit-animation-duration: 1000ms,1000ms;
+		webkit-animation-fill-mode: forwards,none;
+		webkit-animation-name: fadein,glideDown;
+		webkit-animation-timing-function: ease-in-out,ease-in-out;
+	}
+	section#experience.show .experienceList>li:nth-child(9)
+	{
+		animation-delay: 2450ms,2450ms;
+		animation-duration: 1000ms,1000ms;
+		animation-fill-mode: forwards,none;
+		animation-name: fadein,glideDown;
+		animation-timing-function: ease-in-out,ease-in-out;
+		webkit-animation-delay: 2450ms,2450ms;
+		webkit-animation-duration: 1000ms,1000ms;
+		webkit-animation-fill-mode: forwards,none;
+		webkit-animation-name: fadein,glideDown;
+		webkit-animation-timing-function: ease-in-out,ease-in-out;
+	}
+	section#experience.show .experienceList>li:nth-child(10)
+	{
+		animation-delay: 2700ms,2700ms;
+		animation-duration: 1000ms,1000ms;
+		animation-fill-mode: forwards,none;
+		animation-name: fadein,glideDown;
+		animation-timing-function: ease-in-out,ease-in-out;
+		webkit-animation-delay: 2700ms,2700ms;
+		webkit-animation-duration: 1000ms,1000ms;
+		webkit-animation-fill-mode: forwards,none;
+		webkit-animation-name: fadein,glideDown;
+		webkit-animation-timing-function: ease-in-out,ease-in-out;
+	}
+}
+section#experience>.title
+{
+	color: #fff;
+	font-family: Montserrat,"Helvetica Neue",Arial,sans-serif;
+	font-size: 40px;
+	font-weight: 700;
+	letter-spacing: 9px;
+	padding: 40px 0;
+	text-align: center;
+	text-transform: uppercase;
+}
+@media not all and (min-width:1000px)
+{
+	section#experience>.title
+	{
+		font-size: 26px;
+	}
+}
+@media all and (min-width:1000px)
+{
+	section#experience>.title
+	{
+		opacity: 0;
+	}
+}
+section#experience .experienceList
+{
+	margin: 0 auto 40px;
+}
+@media all and (min-width:1000px)
+{
+	section#experience .experienceList
+	{
+		width: 1000px;
+	}
+}
+section#experience .experienceList>li
+{
+	border-radius: 10px;
+	overflow: hidden;
+	padding: 20px;
+}
+@media all and (min-width:1000px)
+{
+	section#experience .experienceList>li
+	{
+		margin: 30px 0;
+		opacity: 0;
+		transition: transform 200ms,background-color 200ms;
+		webkit-transition: -webkit-transform 200ms,background-color 200ms;
+	}
+	section#experience .experienceList>li .descriptionArea a
+	{
+		transition: color 200ms;
+		webkit-transition: color 200ms;
+	}
+	section#experience .experienceList>li:hover
+	{
+		background-color: #6db8bf;
+	}
+	section#experience .experienceList>li:hover .descriptionArea a
+	{
+		color: #429196;
+	}
+	section#experience .experienceList>li:nth-child(odd):hover
+	{
+		ms-transform: translateX(5px);
+		transform: translateX(5px);
+		webkit-transform: translateX(5px);
+	}
+	section#experience .experienceList>li:nth-child(odd) .iconArea
+	{
+		float: left;
+	}
+	section#experience .experienceList>li:nth-child(odd) .descriptionArea
+	{
+		padding-left: 30px;
+	}
+	section#experience .experienceList>li:nth-child(even):hover
+	{
+		ms-transform: translateX(-5px);
+		transform: translateX(-5px);
+		webkit-transform: translateX(-5px);
+	}
+	section#experience .experienceList>li:nth-child(even) .iconArea
+	{
+		float: right;
+	}
+	section#experience .experienceList>li:nth-child(even) .descriptionArea
+	{
+		padding-right: 30px;
+	}
+}
+@media not all and (min-width:1000px)
+{
+	section#experience .experienceList>li
+	{
+		margin: 0 auto;
+		width: 100%;
+	}
+}
+@media all and (min-width:1000px)
+{
+	section#experience .experienceList>li .iconArea
+	{
+		padding: 20px;
+		width: 200px;
+	}
+}
+@media not all and (min-width:1000px)
+{
+	section#experience .experienceList>li .iconArea
+	{
+		margin: 0 auto;
+		max-width: 200px;
+		width: 100%;
+	}
+}
+section#experience .experienceList>li .descriptionArea
+{
+	line-height: 2;
+}
+@media all and (min-width:1000px)
+{
+	section#experience .experienceList>li .descriptionArea
+	{
+		width: 760px;
+	}
+}
+@media not all and (min-width:1000px)
+{
+	section#experience .experienceList>li .descriptionArea
+	{
+		padding-top: 10px;
+		width: 100%;
+	}
+}
+section#experience .experienceList>li .descriptionArea a
+{
+	color: #91cfd7;
+}
+section#experience .experienceList>li .descriptionArea .titleBar
+{
+	overflow: hidden;
+	padding-bottom: .5%;
+	position: relative;
+}
+section#experience .experienceList>li .descriptionArea .titleBar .title
+{
+	float: left;
+	font-size: 26px;
+	font-weight: 700;
+}
+section#experience .experienceList>li .descriptionArea .titleBar .dateRange
+{
+	float: right;
+	font-size: 16px;
+	padding-top: 11px;
+}
+@media not all and (min-width:1000px)
+{
+	section#experience .experienceList>li .descriptionArea .titleBar .dateRange
+	{
+		float: left;
+		padding-top: 0;
+	}
+}
+@media (min-width:600px)
+{
+	section#experience .experienceList>li .descriptionArea .titleBar .dateRange
+	{
+		float: right;
+	}
+}
+section#experience .experienceList>li .descriptionArea .description,section#experience .experienceList>li .descriptionArea .descriptionBullets
+{
+	font-size: 16px;
+	list-style: disc inside;
+}
+section#experience .experienceList>li .descriptionArea .languages
+{
+	color: #bebebe;
+}
+section#experience .experienceList>li .descriptionArea
+{
+	float: left;
+}
+@font-face
+{
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: 700;
+	src: local("Montserrat-Bold"),url(//themes.googleusercontent.com/static/fonts/montserrat/v4/IQHow_FEYlDC4Gzy_m8fcnbFhgvWbfSbdVg11QabG8w.woff) format("woff");
+}
+@font-face
+{
+	font-family: "Open Sans";
+	font-style: normal;
+	font-weight: 400;
+	src: local("Open Sans"),local("OpenSans"),url(//themes.googleusercontent.com/static/fonts/opensans/v8/cJZKeOuBrn4kERxqtaUH3bO3LdcAZYWl9Si6vvxL-qU.woff) format("woff");
+}
+@-webkit-keyframes fadein
+{
+	from
+	{
+		opacity: 0;
+	}
+	to
+	{
+		opacity: 1;
+	}
+}
+@keyframes fadein
+{
+	from
+	{
+		opacity: 0;
+	}
+	to
+	{
+		opacity: 1;
+	}
+}
+@-webkit-keyframes bounce
+{
+	0%,100%,20%,50%,80%
+	{
+		bottom: 10px;
+	}
+	40%
+	{
+		bottom: 30px;
+	}
+	60%
+	{
+		bottom: 15px;
+	}
+}
+@keyframes bounce
+{
+	0%,100%,20%,50%,80%
+	{
+		bottom: 10px;
+	}
+	40%
+	{
+		bottom: 30px;
+	}
+	60%
+	{
+		bottom: 15px;
+	}
+}
+@-webkit-keyframes glideDown
+{
+	from
+	{
+		transform: translateY(20px);
+		webkit-transform: translateY(20px);
+	}
+	to
+	{
+		transform: translateY(0);
+		webkit-transform: translateY(0);
+	}
+}
+@keyframes glideDown
+{
+	from
+	{
+		ms-transform: translateY(20px);
+		transform: translateY(20px);
+		webkit-transform: translateY(20px);
+	}
+	to
+	{
+		ms-transform: translateY(0);
+		transform: translateY(0);
+		webkit-transform: translateY(0);
+	}
+}
+footer
+{
+	background-color: #2d3e52;
+	color: #bebebe;
+	font-size: 16px;
+}
+footer .links li
+{
+	padding-top: 15px;
+	transition: color 200ms;
+	webkit-transition: color 200ms;
+}
+@media all and (min-width:1000px)
+{
+	footer .links li
+	{
+		display: inline;
+	}
+	footer .links li:not(:first-child)
+	{
+		padding-left: 15px;
+	}
+}
+footer .links li:hover
+{
+	color: #fff;
+}
+@media all and (min-width:1000px)
+{
+	footer
+	{
+		height: 100px;
+		padding: 97.5px 50px;
+	}
+	footer li+li:before
+	{
+		color: #bebebe;
+		content: "|";
+		padding-right: 15px;
+	}
+	footer .links
+	{
+		float: left;
+	}
+	footer .message
+	{
+		float: right;
+	}
+}
+@media not all and (min-width:1000px)
+{
+	footer
+	{
+		padding: 15px 0;
+		text-align: center;
+	}
+	footer .message
+	{
+		padding: 30px 0 15px;
+	}
+}
+section
+{
+	box-shadow: inset 0 1px 0 0 rgba(0,0,0,.05),inset 0 2px 3px 0 rgba(0,0,0,.1);
+	overflow: hidden;
+	webkit-box-shadow: inset 0 1px 0 0 rgba(0,0,0,.05),inset 0 2px 3px 0 rgba(0,0,0,.1);
+}
+section>.title
+{
+	cursor: pointer;
+}

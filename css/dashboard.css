@@ -22,6 +22,11 @@ margin:0;
   left: 0;
 }
 
+.padder > div{
+  padding-left: 15vw;
+
+}
+
 #profile{
   width: 85vw;
   height: 100vh;
