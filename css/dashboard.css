@@ -111,7 +111,7 @@ position: absolute;
 
 #tab3 {
   width: 80vw;
-  background-color: #078CDA;
+  background-color: #000000;
 }
 #tab3::after {
   content: 'Skool3';
