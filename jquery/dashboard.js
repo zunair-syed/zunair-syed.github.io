@@ -1,5 +1,4 @@
 $(document).ready(function(){
-	console.log("TEEEEEEESSTTTT");
 
 	var tab0 = document.getElementById( "tab0" );
 	$(tab0).css("transform", "translateX(0vw)");
