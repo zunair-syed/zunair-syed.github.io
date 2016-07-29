@@ -94,6 +94,12 @@ position: absolute;
   right: -5vw;
 }
 
+#experience{
+  width: 74vw;
+  height: 100vh;
+  margin-left: 14vw;
+}
+
 
 #tab2 {
   width: 85vw;
@@ -116,9 +122,8 @@ position: absolute;
 }
 
 #projects{
-  width: 82vw;
+  width: 80.5vw;
   height: 100vh;
-  margin-left: 7vw;
 }
 
 

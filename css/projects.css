@@ -13,26 +13,23 @@
 
 body{
     font-family: 'Open Sans', sans-serif;
-    margin-left: 3%;
-    margin-right: 3%;  
-    margin-top: 0.6%;
-    margin-bottom: 0%;
 }
 
 .row {
 }
 
-
+.middle-box{
+  margin-left: 6%;
+  margin-right: 6%;
+}
 .floating-box {
+  float: right;
     display: inline-block;
     width: 25%;
     height: 45%;
-    margin-left: 3%;
-    margin-right: 3%; 
     margin-top: 1.5%;
     border-radius: 5px;
     position: relative; 
-    background-color: #84C1A0;
 
    
 /*    background-image: url("../img/airmiles.png") ;
@@ -45,7 +42,7 @@ body{
 .box-img{
     width: 100%;
     height: 70%;
-    background-image: url("../img/airmiles.png") ;
+    background-image: url("../img/eagleeye.svg") ;
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center; 
@@ -54,8 +51,28 @@ body{
     border-radius: 5px 5px 0px 0px;
 }
 
+.prj_1{
+  background-color: #DF7065;
+}
+.prj_2{
+  background-color: #2ECC71;
+}
+.prj_3{
+  background-color: #15BCDD;
+}
+.prj_4{
+  background-color: #ECF0F3;
+}
+.prj_5{
+  background-color: #F6A65A;
+}
+.prj_6{
+  background-color: #908FB3;
+}
+
+
 .box-text{
-    background-color: rgba(110, 182,143, 1);;
+    background-color: rgba(0, 0,0, 0.1);;
     width:95%;
     height:30%;
     position: absolute; 
@@ -88,58 +105,3 @@ transform: scale(1.1);
   from { z-index: 0; transform: scale(1); }
   to { z-index: 4; transform: scale(1.1); }
 }
-
-
-
-/*
-#prj_cont{
-  padding-left: 3vw;
-  margin-top: 2vh;
-  color:white;
-}
-
-.row{
-  position: relative;
-  margin-top: 2vh;
-}
-
-.prj_box1{
-  background-color: #84C1A0;
-  width: 21vw;
-  height: 30vh;
-  border-radius: 6px;
-  position: absolute;
-  top: 0;
-  left: 0;
-
-}
-.prj_box2{
-  background-color: #84C1A0;
-  margin-left: 2vw;
-  margin-right:2vw;
-  width: 21vw;
-  border-radius: 6px;
-  height: 30vh;
-  background-image: url("../img/airmiles.png") ;
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: center
-}
-
-.prj_box3{
-  background-color: #84C1A0;
-  width: 21vw;
-  height: 30vh;
-  border-radius: 6px;
-  position: absolute;
-  top: 0;
-  right: 0;
-}
-.testimage{
-  height: 20vh;
-    background-image: url("../img/airmiles.png") ;
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: center
-}
-*/
