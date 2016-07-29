@@ -107,7 +107,7 @@ position: absolute;
 }
 #tab2::after { /*Projects*/
   content: "";
-  background-image: url("../img/prj_tab.png") ;
+  background-image: url("../img/prj1_tab.png") ;
   background-color: #FFBA08;
   background-repeat: no-repeat;
   background-size: cover;
@@ -124,6 +124,7 @@ position: absolute;
 #projects{
   width: 80.5vw;
   height: 100vh;
+  margin-left: 1vw;
 }
 
 
@@ -153,7 +154,7 @@ position: absolute;
 }
 #tab4::after { /* AMA and fun? */
   content: "";
-  background-image: url("../img/edu_tab.png") ;
+  background-image: url("../img/ama.png") ;
   background-color: #F35325;
   background-repeat: no-repeat;
   background-size: cover;
