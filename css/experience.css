@@ -34,8 +34,14 @@ background-size: contain;
 background-position: center; 
 width: 18%;
 height: 100%;
-/*background-color: yellow;
-*/float: left;
+}
+
+.left_exp{
+  float: left;
+}
+
+.right_exp{
+  float:right;
 }
 
 .info{
@@ -44,13 +50,12 @@ height: 100%;
 margin-left: 2%;
 width: 80%;
 height: 100%;
-float: left;
 }
 
 .title{
   color:white;
   font-family: 'Roboto', sans-serif;
-  font-weight: 1.5em;
+  font-weight: 3.5em;
   font-size: 1.3em;
 }
 
@@ -59,7 +64,7 @@ float: left;
   float: right;
   color:white;
   font-family: 'Roboto', sans-serif;
-  font-weight: 1.2em;
+  font-weight: 3.2em;
   font-size: 0.9em;
 }
 
@@ -67,6 +72,6 @@ float: left;
   margin-top: 1%;
   color:white;
   font-family: 'Signika', sans-serif;
-  font-weight: 1.0em;
-  font-size: 1.0em;
+  font-weight: 3.0em;
+  font-size: 0.9em;
 }
