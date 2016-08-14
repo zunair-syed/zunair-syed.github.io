@@ -9,7 +9,14 @@ body{
 
 
 .row{
-background-color: rgba(206,206,206,.6);
+background-color: rgba(5, 166, 240, .6);
+background-image: -webkit-gradient(linear, 0 100%, 100% 0, color-stop(.25, rgba(255, 255, 255, .2)), color-stop(.25, transparent), color-stop(.5, transparent), color-stop(.5, rgba(255, 255, 255, .2)), color-stop(.75, rgba(255, 255, 255, .2)), color-stop(.75, transparent), to(transparent));
+background-image: -webkit-linear-gradient(30deg, rgba(255, 255, 255, .2) 20%, transparent 25%, transparent 45%, rgba(255, 255, 255, .2) 50%, rgba(255, 255, 255, .2) 70%, transparent 75%, transparent);
+background-image: -moz-linear-gradient(30deg, rgba(255, 255, 255, .2) 20%, transparent 25%, transparent 45%, rgba(255, 255, 255, .2) 50%, rgba(255, 255, 255, .2) 70%, transparent 75%, transparent);
+background-image: -ms-linear-gradient(30deg, rgba(255, 255, 255, .2) 20%, transparent 25%, transparent 45%, rgba(255, 255, 255, .2) 50%, rgba(255, 255, 255, .2) 70%, transparent 75%, transparent);
+background-image: -o-linear-gradient(30deg, rgba(255, 255, 255, .2) 20%, transparent 25%, transparent 45%, rgba(255, 255, 255, .2) 50%, rgba(255, 255, 255, .2) 70%, transparent 75%, transparent);
+background-image: linear-gradient(30deg, rgba(255, 255, 255, .2) 20%, transparent 25%, transparent 45%, rgba(255, 255, 255, .2) 50%, rgba(255, 255, 255, .2) 70%, transparent 75%, transparent);
+opacity: 1;
 width: 100%;
 /*max-width: 1100px;
 */height: 30%;
@@ -17,13 +24,24 @@ margin-top: 1.5%;
 position: relative; 
 border-radius: 18px;
 padding-top: 0.5%;
-/*transition: all .2s ; 
-*/}
+transition: all .1s ease;
+}
 
 /*.row:hover{
 background-color: rgba(206,206,206,.6);
 }
 */
+.row:hover
+{
+  background-color: rgba(206, 206, 206, .4);
+   background-image: -webkit-gradient(linear, 0 100%, 100% 0, color-stop(.25, rgba(255, 255, 255, .2)), color-stop(.25, transparent), color-stop(.5, transparent), color-stop(.5, rgba(255, 255, 255, .2)), color-stop(.75, rgba(255, 255, 255, .2)), color-stop(.75, transparent), to(transparent));
+   background-image: -webkit-linear-gradient(30deg, rgba(255, 255, 255, .2) 20%, transparent 25%, transparent 45%, rgba(255, 255, 255, .2) 50%, rgba(255, 255, 255, .2) 70%, transparent 75%, transparent);
+   background-image: -moz-linear-gradient(30deg, rgba(255, 255, 255, .2) 20%, transparent 25%, transparent 45%, rgba(255, 255, 255, .2) 50%, rgba(255, 255, 255, .2) 70%, transparent 75%, transparent);
+   background-image: -ms-linear-gradient(30deg, rgba(255, 255, 255, .2) 20%, transparent 25%, transparent 45%, rgba(255, 255, 255, .2) 50%, rgba(255, 255, 255, .2) 70%, transparent 75%, transparent);
+   background-image: -o-linear-gradient(30deg, rgba(255, 255, 255, .2) 20%, transparent 25%, transparent 45%, rgba(255, 255, 255, .2) 50%, rgba(255, 255, 255, .2) 70%, transparent 75%, transparent);
+   background-image: linear-gradient(30deg, rgba(255, 255, 255, .2) 20%, transparent 25%, transparent 45%, rgba(255, 255, 255, .2) 50%, rgba(255, 255, 255, .2) 70%, transparent 75%, transparent);
+  opacity: 0.9;
+}
 
 .AM{
 background-image: url("../img/airmiles.png") ;
