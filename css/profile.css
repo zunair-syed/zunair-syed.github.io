@@ -46,14 +46,55 @@
       transition: all 0.3s;
     }
 
+    #test{
+transition:All 1s ease;
+-webkit-transition:All 1s ease;
+-moz-transition:All 1s ease;
+-o-transition:All 1s ease;
+transform: rotate(4deg);
+-webkit-transform: rotate(4deg);
+-moz-transform: rotate(4deg);
+-o-transform: rotate(4deg);
+-ms-transform: rotate(4deg);
+    -webkit-animation-iteration-count: infinite; /* The magic keyword for infinite*/
+
+}
+#test:hover{
+transform: rotate(0deg) scale(0.67) skew(1deg) translate(0px);
+-webkit-transform: rotate(0deg) scale(0.67) skew(1deg) translate(0px);
+-moz-transform: rotate(0deg) scale(0.67) skew(1deg) translate(0px);
+-o-transform: rotate(0deg) scale(0.67) skew(1deg) translate(0px);
+-ms-transform: rotate(0deg) scale(0.67) skew(1deg) translate(0px);
+    -webkit-animation-iteration-count: infinite; /* The magic keyword for infinite*/
+
+}
+
+
     #Triangle-1 {
       /*-webkit-animation: box 42.5s infinite; /* Main Anim is super laggy on chrome and safary*/
-      -moz-animation: box 42.5s infinite; /* Main Anim seems good on Firefox*/
+    /*  -moz-animation: box 42.5s infinite; /* Main Anim seems good on Firefox*/
+      
+              -moz-transform: rotate(1deg);
+        -ms-transform: rotate(1deg);
+        -webkit-transform: rotate(1deg);
+        transform: rotate(1deg);
+      -webkit-transition: 14000ms ease all;
+      -moz-transition: 14000ms ease all;
+      -o-transition: 14000ms ease all;
+      transition: 14000ms ease all;
     }
 
     #Triangle-2 { 
       /*-webkit-animation: box2 12.5s infinite; /* same as above */
-      -moz-animation: box2 12.5s infinite; /* same as above */
+     /* -moz-animation: box2 12.5s infinite; /* same as above */
+        -moz-transform: rotate(-2deg);
+        -ms-transform: rotate(-2deg);
+        -webkit-transform: rotate(-2deg);
+        transform: rotate(-2deg);
+       -webkit-transition: 7000ms ease all;
+      -moz-transition: 7000ms ease all;
+      -o-transition: 7000ms ease all;
+      transition: 7000ms ease all;
     }
 
     @keyframes box2 {
