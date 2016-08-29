@@ -76,12 +76,12 @@ position: absolute;
 
 #tab1 {
   width: 90vw;
-  background-color: #05A6F0;
+    background-color: rgba(5,166,240, 0.8);
 }
 #tab1::after { /*Experience (coop)*/
   content: "";
   background-image: url("../img/exp_tab.png") ;
-  background-color: #05A6F0;
+  background-color: rgba(5,166,240, 0.9);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -103,12 +103,12 @@ position: absolute;
 
 #tab2 {
   width: 85vw;
-  background-color: #FFBA08;
+  background-color: rgba(255,186,8,0.95);
 }
 #tab2::after { /*Projects*/
   content: "";
   background-image: url("../img/prj1_tab.png") ;
-  background-color: #FFBA08;
+  background-color: rgba(255,186,8,0.95);;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -130,12 +130,12 @@ position: absolute;
 
 #tab3 {
   width: 80vw;
-  background-color: #81BC06;
+  background-color: rgba(129,188,6,0.95);
 }
 #tab3::after { /* Education */
   content: "";
   background-image: url("../img/edu_tab.png") ;
-  background-color: #81BC06;
+  background-color: rgba(129,188,6,1);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -150,7 +150,7 @@ position: absolute;
 
 #tab4 {
   width: 75vw;
-  background-color: #F35325;
+  background-color: rgba(243,83,37,0.9);
 }
 #tab4::after { /* AMA and fun? */
   content: "";
