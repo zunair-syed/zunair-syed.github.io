@@ -1,23 +1,10 @@
 body {
-  height: 100vh;
 }
 
-#light_bulb{
-    margin-top: 2%;
-    margin-left: 26%;
-    width: 45%;
-    height: 60%;
-    background-image: url("../img/ece_logo.png") ;
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: center; 
-    position: absolute; 
-    border-radius: 5px 5px 0px 0px;
-}
 
 #uw_banner{
-    margin-top: 47%;
-    margin-left: 22%;
+    margin-top: 49%;
+    margin-left: 24%;
     width: 50%;
     height: 20%;
     background-image: url("../img/banner_uw2.png") ;
@@ -25,7 +12,17 @@ body {
     background-size: contain;
     background-position: center; 
     position: absolute; 
-    border-radius: 5px 5px 0px 0px;
+    border-radius: 25px 25px 25px 25px;
+
+  -webkit-transition: opacity 0.2s ease-in-out;
+  -moz-transition: opacity 0.2s ease-in-out;
+  -o-transition: opacity 0.2s ease-in-out;
+  transition: opacity 0.2s ease-in-out;
+}
+
+
+#uw_banner:hover{
+background-color: rgba(242,244,242,0.5);
 }
 
 #light_bulb:hover{
@@ -34,8 +31,8 @@ body {
 
 #cf {
   position:absolute;
-    width: 100%;
-    height:100%;
+    width: 50%;
+    height:90%;
   margin-left: 26%;
   margin-top: 3%;
 }
@@ -43,11 +40,11 @@ body {
 #cf img {
   position:absolute;
   left:0; 
-  width: 45%;
-  -webkit-transition: opacity 0.2s ease-in-out;
-  -moz-transition: opacity 1s ease-in-out;
-  -o-transition: opacity 1s ease-in-out;
-  transition: opacity 0.2s ease-in-out;
+  width: 100%;
+  -webkit-transition: opacity 0.3s ease-in-out;
+  -moz-transition: opacity 0.2s ease-in-out;
+  -o-transition: opacity 0.2s ease-in-out;
+  transition: opacity 0.3s ease-in-out;
 }
 
 #bottom{
