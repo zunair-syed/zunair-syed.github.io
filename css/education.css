@@ -1,0 +1,66 @@
+body {
+  height: 100vh;
+}
+
+#light_bulb{
+    margin-top: 2%;
+    margin-left: 26%;
+    width: 45%;
+    height: 60%;
+    background-image: url("../img/ece_logo.png") ;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center; 
+    position: absolute; 
+    border-radius: 5px 5px 0px 0px;
+}
+
+#uw_banner{
+    margin-top: 47%;
+    margin-left: 22%;
+    width: 50%;
+    height: 20%;
+    background-image: url("../img/banner_uw2.png") ;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center; 
+    position: absolute; 
+    border-radius: 5px 5px 0px 0px;
+}
+
+#light_bulb:hover{
+    background-image: url("../img/ece_logo_lit.png") ;
+}
+
+#cf {
+    width: 100%;
+    height:100%;
+  margin-left: 26%;
+  margin-top: 3%;
+}
+
+#cf img {
+  left:0; 
+  width: 45%;
+  -webkit-transition: opacity 0.2s ease-in-out;
+  -moz-transition: opacity 0.2s ease-in-out;
+  -o-transition: opacity 0.2s ease-in-out;
+  transition: opacity 0.2s ease-in-out;
+}
+
+#top:hover {
+  opacity:0;
+}
+
+img:hover + img{
+  opacity:1;
+  background-color: red;
+}
+
+#bottom{
+  opacity: 0.2;
+}
+
+#cf .top{
+
+}

@@ -148,6 +148,13 @@ position: absolute;
   right: -5vw;
 }
 
+#education{
+  width: 79.5vw;
+  height: 100vh;
+  margin-left: 4vw;
+}
+
+
 #tab4 {
   width: 75vw;
   background-color: rgba(243,83,37,0.9);
