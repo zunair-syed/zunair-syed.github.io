@@ -33,6 +33,7 @@ body {
 }
 
 #cf {
+  position:absolute;
     width: 100%;
     height:100%;
   margin-left: 26%;
@@ -40,27 +41,15 @@ body {
 }
 
 #cf img {
+  position:absolute;
   left:0; 
   width: 45%;
   -webkit-transition: opacity 0.2s ease-in-out;
-  -moz-transition: opacity 0.2s ease-in-out;
-  -o-transition: opacity 0.2s ease-in-out;
+  -moz-transition: opacity 1s ease-in-out;
+  -o-transition: opacity 1s ease-in-out;
   transition: opacity 0.2s ease-in-out;
 }
 
-#top:hover {
-  opacity:0;
-}
-
-img:hover + img{
-  opacity:1;
-  background-color: red;
-}
-
 #bottom{
-  opacity: 0.2;
-}
-
-#cf .top{
-
+  opacity: 0;
 }
