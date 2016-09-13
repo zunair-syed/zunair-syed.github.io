@@ -16,8 +16,8 @@
 
 + [*] (how are you|how do you do|how is life|how about yourself|what is up) [*]
 - I am doing great. Enjoyed my 3rd coop and had a blast. It was the coop life 140. i'm back in my study term now 130.
-- I'm doing pretty good. I'm enjoyed the coop life 140. I'm currently on my study term now. 
-- Coop was really fun this term. Apart from the commute 130. I'm back on my study term now.
+- I'm doing pretty good. I enjoyed the coop life 140. I'm on my study term now. 
+- Doing great man. I just finished my coop. Back in UW now. 
 
 + [*] (what made you|who made you) [*]
 - I was made by Zunair. I'm made to answer questions any that you may have about him. 
@@ -34,10 +34,12 @@
 + [*] (who created you|who is your creator|who is your master|are you a slave|you a slave|slave) [*]
 - I have no master. I am a bot, a digital representation of Zunair. I am as free as any opensource software. Free !! 160
 
-+ [*] tell me about yourself [*]
++ [*] (tell me about yourself|tell me about you) [*]
 - I am currently in 2B Computer Engineering. Just finished my 3rd coop at Air Miles doing fullstack dev and some ML. Love innovation. Love Halo. Love BlueJays.
 - I'm a Computer Enginering student at the University of Waterloo. Recently finished my 3rd coop at Air Miles doing fullstack dev and some Machine learning. I love innovation !!. 
 
++ [*] tell me (about your coops|about your coop terms|about your coop work terms|about your workterms) [*]
+- I've worked at TheWeatherNetwork, TD Bank's Innovation Lab and just finished working at Air Miles. I've done Android, Web, Fullstack, IoT (embedded), Automation, backend development and a bit of data pipelining work. 
 
 + [*] (help|halp|halp me|help me|i do not know what to ask|what should i ask you|what to ask you) [*]
 - Some Questions To Ask Me. 1) How is life?. 2) How was first year for you?. 3) Where do you work right now?. 4) Random Fact? etc etc.
