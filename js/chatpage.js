@@ -16,7 +16,6 @@ rs.loadFile([
   "js/brain/begin.rive",
   "js/brain/admin.rive",
   "js/brain/clients.rive",
-  "js/brain/eliza.rive",
   "js/brain/myself.rive",
   "js/brain/rpg.rive",
   "js/brain/fun.rive",
@@ -24,6 +23,7 @@ rs.loadFile([
   "js/brain/projects.rive",
   "js/brain/school.rive",    
   "js/brain/work.rive",    
+  "js/brain/eliza.rive",
   "js/brain/javascript.rive"
   ], on_load_success, on_load_error);
 
