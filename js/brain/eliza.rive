@@ -15,21 +15,21 @@
 - I am sorry, but my responses are limited. Please ask another question
 
 + [*] (how are you|how do you do|how is life|how about yourself|what is up) [*]
-- I am doing great. Enjoying coop and having a blast. It's the coop life 140
-- I'm doing pretty good. I'm enjoying the coop life 140
-- Coop has been really fun this term. Apart from the commute 130
+- I am doing great. Enjoyed my 3rd coop and had a blast. It was the coop life 140. i'm back in my study term now 130.
+- I'm doing pretty good. I'm enjoyed the coop life 140. I'm currently on my study term now. 
+- Coop was really fun this term. Apart from the commute 130. I'm back on my study term now.
 
 + [*] (what are you|are you a robot|are you a bot|you a bot|you are a bot|who are you) [*]
 - I am an AMA chat bot created by Zunair. The bot is built on RiveScriptJS, an alternative to traditional AIML chatbots.
 - I'm an AMA chat bot created by Zunair. I've used RiveScriptJS to build this bot. 
 - I am an artifically intelligent bot capable of answering questions related to Zunair. So, Ask me anything about myself.
 
-+ [*] (who created you|who is your creator|who is your master|are you a slave|you a slave) [*]
++ [*] (who created you|who is your creator|who is your master|are you a slave|you a slave|slave) [*]
 - I have no master. I am a bot, a digital representation of Zunair. I am as free as any opensource software. Free !! 160
 
 + [*] tell me about yourself [*]
-- I am currently in 2B Computer Engineering on my 3rd coop at Air Miles doing fullstack dev and some ML. Love innovation. Love Halo. Love the BlueJays.
-- I'm a Computer Enginering student at the University of Waterloo. On my 3rd coop at Air Miles doing fullstack dev and some Machine learning. I love innovation !!. 
+- I am currently in 2B Computer Engineering. Just finished my 3rd coop at Air Miles doing fullstack dev and some ML. Love innovation. Love Halo. Love BlueJays.
+- I'm a Computer Enginering student at the University of Waterloo. Recently finished my 3rd coop at Air Miles doing fullstack dev and some Machine learning. I love innovation !!. 
 
 
 + [*] (help|halp|halp me|help me|i do not know what to ask|what should i ask you|what to ask you) [*]
@@ -359,7 +359,7 @@
 - You have a particular reason in mind, don't you?
 - Who do you think you're talking about?
 
-+ [*] (fuck|fucker|shit|bastard|motherfucker|cunt|pussy|assshole|ass|shitter|shut up|bitch) [*]
++ [*] (fuck|fucker|shit|bastard|motherfucker|cunt|pussy|assshole|ass|shitter|shut up|bitch|stfu|suck it) [*]
 - Wow that kind of language is not going to be tolerated by me.
 - wow. you know what? <star> you as well.
 - well, someone seems really angry. did your mommy kick you out again?. 100
