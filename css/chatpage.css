@@ -42,6 +42,7 @@ Chat
   position: absolute;
   top: 50%;
   left: 50%;
+  overflow:hidden;
   -webkit-filter: blur(0);
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
@@ -293,8 +294,10 @@ Message Box
   background: rgba(0, 0, 0, 0.3);
   padding: 10px;
   position: relative;
+  overflow:hidden;
 }
 .message-box .message-input {
+    overflow:hidden;
   background: none;
   border: none;
   outline: none !important;
@@ -308,12 +311,16 @@ Message Box
 }
 .message-box textarea:focus:-webkit-placeholder {
   color: transparent;
+    overflow:hidden;
+
 }
 .message-box .message-submit {
   -webkit-filter: blur(0);
   position: absolute;
   z-index: 1;
   top: 9px;
+    overflow:hidden;
+
   right: 10px;
   color: #fff;
   border: none;
@@ -329,6 +336,8 @@ Message Box
 }
 .message-box .message-submit:hover {
   background: #1D7745;
+    overflow:hidden;
+
 }
 
 /*--------------------
@@ -337,6 +346,7 @@ Custom Srollbar
 .mCSB_scrollTools {
   margin: 1px -3px 1px 0;
   opacity: 0;
+
 }
 
 .mCSB_inside > .mCSB_container {
