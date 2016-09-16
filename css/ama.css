@@ -292,6 +292,8 @@ Message Box
   position: relative;
 }
 .message-box .message-input {
+      overflow:hidden;
+
   background: none;
   border: none;
   outline: none !important;
@@ -305,8 +307,12 @@ Message Box
 }
 .message-box textarea:focus:-webkit-placeholder {
   color: transparent;
+      overflow:hidden;
+
 }
 .message-box .message-submit {
+      overflow:hidden;
+
   position: absolute;
   z-index: 1;
   top: 9px;
@@ -325,6 +331,8 @@ Message Box
 }
 .message-box .message-submit:hover {
   background: #1D7745;
+      overflow:hidden;
+
 }
 
 /*--------------------
