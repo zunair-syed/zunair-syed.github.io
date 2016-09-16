@@ -287,6 +287,8 @@ Message Box
   width: 100%;
   background: rgba(0, 0, 0, 0.3);
   padding: 10px;
+    overflow: hidden;
+
   position: relative;
 }
 .message-box .message-input {
