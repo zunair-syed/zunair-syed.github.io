@@ -1,0 +1,102 @@
+    @import url(https://fonts.googleapis.com/css?family=Oswald|Roboto);
+    body {
+      height: 100vh;
+      overflow: hidden;
+      text-align: center;
+      font-family: "Roboto", sans-serif;
+    }
+
+    .background-svg{
+      position: absolute;
+      top: 5%;
+      left: 20%;
+      width: 60%;
+      height: 70%;
+    }
+
+
+    h1 {
+      font-weight: 300;
+      font-size: 24px;
+      letter-spacing: 2px;
+      color: #fff;
+      text-align: left;
+    }
+    h1 .info {
+      display: block;
+      color: #CFBDF9;
+      font-size: 16px;
+      letter-spacing: 0px;
+    }
+
+    .box {
+      text-align: right;
+      padding: 0px 40px;
+    }
+
+
+    .box-item {
+      display: inline-block;
+      color: #fff;
+      font-size: 30px;
+      padding-right: 20px;
+      -moz-transition: all 0.3s;
+      -o-transition: all 0.3s;
+      -webkit-transition: all 0.3s;
+      transition: all 0.3s;
+    }
+
+    #Triangle-1 {
+      /*-webkit-animation: box 42.5s infinite; /* Main Anim is super laggy on chrome and safary*/
+      -moz-animation: box 42.5s infinite; /* Main Anim seems good on Firefox*/
+    }
+
+    #Triangle-2 { 
+      /*-webkit-animation: box2 12.5s infinite; /* same as above */
+      -moz-animation: box2 12.5s infinite; /* same as above */
+    }
+
+    @keyframes box2 {
+      10% {
+        -moz-transform: rotate(1deg);
+        -ms-transform: rotate(1deg);
+        -webkit-transform: rotate(1deg);
+        transform: rotate(1deg);
+      }
+      90% {
+        -moz-transform: rotate(-2deg);
+        -ms-transform: rotate(-2deg);
+        -webkit-transform: rotate(-2deg);
+        transform: rotate(-2deg);
+      }
+    }
+    @keyframes box {
+      10% {
+        -moz-transform: rotate(-2deg);
+        -ms-transform: rotate(-2deg);
+        -webkit-transform: rotate(-2deg);
+        transform: rotate(-2deg);
+      }
+      90% {
+        -moz-transform: rotate(2deg);
+        -ms-transform: rotate(2deg);
+        -webkit-transform: rotate(2deg);
+        transform: rotate(2deg);
+      }
+    }
+
+
+    .box-item{
+      -webkit-transition: all 0.3s ease-in-out;
+      -moz-transition: opacity 0.3s ease-in-out;
+      -o-transition: opacity 0.3s ease-in-out;
+      transition: all 0.3s ease-in-out;
+    }
+
+    .box-item:hover{
+      color: #71b4f7;
+    }
+
+
+
+
