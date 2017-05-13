@@ -10,38 +10,38 @@
 - Dang. This question is not in my database. Ask another question?
 - Oh no. This question is not in my database. I'm sure to add it. Meanwhile, ask another question?
 - Uh oh. My responses are limited. Ask another question please.
-- I don't understand that question. Please rephrase. 
+- I don't understand that question. Please rephrase.
 - Uh oh. I don't have that question in my database. Ask another one?
 - I am sorry, but my responses are limited. Please ask another question
 
 + [*] (how are you|how do you do|how is life|how about yourself|what is up) [*]
-- I am doing great. Enjoyed my 3rd coop and had a blast. It was the coop life 140. i'm back in my study term now 130.
-- I'm doing pretty good. I enjoyed the coop life 140. I'm on my study term now. 
-- Doing great man. I just finished my coop. Back in UW now. 
+- I am doing great. Enjoyed my 4th coop and had a blast. It was the coop life 140. i'm back in my study term now 130.
+- I'm doing pretty good. I enjoyed the coop life 140. I'm on my study term now.
+- Doing great man. I just finished my coop. Back in UW now.
 
 + [*] (what made you|who made you) [*]
-- I was made by Zunair. I'm made to answer questions any that you may have about him. 
-- Zunair made me ofcourse. I'm made to answer questions any that you may have about him. 
+- I was made by Zunair. I'm made to answer questions any that you may have about him.
+- Zunair made me ofcourse. I'm made to answer questions any that you may have about him.
 
 + [*] (when were you made|when did you come to life|when were you born) [*]
 - uhh, summer of 2016.
 
-+ [*] (what are you|are you a robot|are you a bot|you a bot|you are a bot|who are you) [*]
++ [*] (what are you|are you a robot|are you robot|are you a bot|are you bot|you a bot|you are a bot|who are you) [*]
 - I am an AMA chat bot created by Zunair. The bot is built on RiveScriptJS, an alternative to traditional AIML chatbots.
-- I'm an AMA chat bot created by Zunair. I've used RiveScriptJS to build this bot. 
+- I'm an AMA chat bot created by Zunair. I've used RiveScriptJS to build this bot.
 - I am an artifically intelligent bot capable of answering questions related to Zunair. So, Ask me anything about myself.
 
 + [*] (who created you|who is your creator|who is your master|are you a slave|you a slave|slave) [*]
 - I have no master. I am a bot, a digital representation of Zunair. I am as free as any opensource software. Free !! 160
 
 + [*] (tell me about yourself|tell me about you) [*]
-- I am currently in 2B Computer Engineering. Just finished my 3rd coop at Air Miles doing fullstack dev and some ML. Love innovation. Love Halo. Love BlueJays.
-- I'm a Computer Enginering student at the University of Waterloo. Recently finished my 3rd coop at Air Miles doing fullstack dev and some Machine learning. I love innovation !!. 
+- I am currently in 3A Computer Engineering. Just finished my 4th coop at IBM doing IBM Watson chat bot and blockchain stuff. Love innovation. Love gaming, especially Halo. Love BlueJays.
+- I'm a Computer Enginering student at the University of Waterloo. Recently finished my 4th coop at Air Miles doing IBM Watson chat bot and blockchain stuff. I love innovation !!.
 
 + [*] tell me (about your coops|about your coop terms|about your coop work terms|about your workterms) [*]
-- I've worked at TheWeatherNetwork, TD Bank's Innovation Lab and just finished working at Air Miles. I've done Android, Web, Fullstack, IoT (embedded), Automation, backend development and a bit of data pipelining work. 
+- I've worked at TheWeatherNetwork, TD Bank's Innovation Lab, Air Miles and just finished working at IBM. I've done Android, Web, Fullstack, IoT (embedded), Automation, backend development and a bit of data pipelining work.
 
-+ [*] (help|halp|halp me|help me|i do not know what to ask|what should i ask you|what to ask you) [*]
++ [*] (help|halp|halp me|help me|i do not know what to ask|what should i ask you|what to ask you|ask|what can you do) [*]
 - Some Questions To Ask Me. How is life?. How was first year for you?. Where do you work right now?. Random Fact?. etc etc.
 
 + [*] (what can you answer|what can i ask you|questions to ask) [*]
@@ -55,9 +55,9 @@
 - It did not bother me. Please ask another question.
 
 + [*] (lol|lool|hehehe|lmao|rofl|rotfl|haha|hahaha) [*]
-- Haha, that was funny indeed 
+- Haha, that was funny indeed
 - hahaha. yup quite hilarious
-- looool. 
+- looool.
 - I'm literlly laughing out loud right now
 - why was that funny lol?
 - was that laugh full of sarcasm?
@@ -95,9 +95,9 @@
 - Do you think you are suppressing <star>?
 
 + did you forget *
-- No I did not forget that lol. 
+- No I did not forget that lol.
 - Why would I forget <star> lol.
-- Why do you ask? I haven't forgetten <star> 
+- Why do you ask? I haven't forgetten <star>
 - Are you sure you told me? I don't seem to recall <star>
 - Would it bother you if I forgot <star>?
 - Why should I recall <star> just now?
@@ -210,7 +210,7 @@
 
 + i (desire|want|need) *
 - Why bro, why do you need <star2>?
-- You want <star2>? Whaaa? 
+- You want <star2>? Whaaa?
 - Why do you want <star2> lol?
 - What if you never got <star2>?
 - What does wanting <star2> have to do with this discussion?
@@ -279,21 +279,19 @@
 - What are your feelings now?
 */
 
-/*
-+ [*] (yes|yeah|yep|yup) [*]
-- Please go on.
-- Please tell me more about this.
-- Why don't you tell me a little more about this.
-- I see.
-- I understand.
-*/
 
-/*
++ [*] (yes|yeah|yep|yup|yea) [*]
+- I see.
+- yea great.
+- yea yup.
+- I understand ya.
+
 + [*] (nope|nah) [*]
-- Are you saying no just to be negative? Be postive man. 
 - Why not?
 - Why 'no'?
+- no? ok.
 
+/*
 + no
 @ nope
 */
@@ -371,7 +369,7 @@
 - You have a particular reason in mind, don't you?
 - Who do you think you're talking about?
 
-+ [*] (fuck|fucker|shit|bastard|motherfucker|cunt|pussy|assshole|ass|shitter|shut up|bitch|stfu|suck it|screw) [*]
++ [*] (fuck|fucker|shit|bastard|motherfucker|cunt|pussy|asshole|ass|shitter|shut up|bitch|stfu|suck it|screw) [*]
 - Wow that kind of language is not going to be tolerated by me.
 - wow. you know what? <star> you as well.
 - well, someone seems really angry. did your mommy kick you out again?. 100

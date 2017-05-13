@@ -19,7 +19,7 @@
 
 // This gets us into the game.
 + rpg demo
-- You're now playing the game. Type "help" for help.\n\n{topic=nasa_lobby}{@look}
+- You're now playing the game. Is that you Anderson? Stap Playing lmao. Type "help" for help.\n\n{topic=nasa_lobby}{@look}
 
 // Global triggers available everywhere
 > topic global

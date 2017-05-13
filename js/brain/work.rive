@@ -1,27 +1,33 @@
 // Tell the user stuff about work (coop).
 + [*] (experience|you work|you worked|you working) [*]
-- I've worked at TheWeatherNetwork, TD Bank's Innovation Lab and just finished working at Air Miles. I've done Android, Fullstack, IoT (embedded), Automation and backend development. Also done a bit of ML and data pipeling work. 
+- I've worked at TheWeatherNetwork, TD Bank's Innovation Lab, AirMiles and just finished working at IBM. I've done Android, Fullstack, IoT (embedded), Blockchain and Automation. Also done a bit of ML and data pipeling work.
 
-+ [*] first coop [*] 
++ [*] first coop [*]
 - I had lots of fun in my first co-op. Worked at TheWeatherNetwork as a QA Automation Developer.
 
-+ [*] second coop [*] 
++ [*] second coop [*]
 - I had lots of fun in my second co-op.Worked at the TD Lab as a Solutions Developer, innovating with POCs.Secret Projects so hush.
 
-+ [*] third coop [*] 
++ [*] third coop [*]
 - had a lot of fun at Air Miles. Worked as a Fullstack developer with IoT devices. Also got to work with big data doing ETL work for a machine learning system.
 
++ [*] fourth coop [*]
+- My last coop was at IBM. Worked on an IBM Watson analytics chat bot. Built an app in React Native and a backend that operates with Blockchain, written in Go and NodeJS.
+
 + [*] (best coop|favorite coop) [*]
-- All my co-ops were amazing, so i don't really have a favorite one. 
+- All my co-ops were amazing, so i don't really have a favorite one.
 
 + [*] work in california [*]
 - I would love to work in california.But more importantly, I would love to work at a company which has a high reputation in innovation.
 
-+ [*] want to work [*]
-- I would love to work at a company which is in love with innovation and R&D.That's where my skills come in to play.
++ [*] (want to work|next coop) [*]
+- I would love to work at a company which is in love with innovation and crazy proof of concepts. That's where my skills come in to play haha.
 
-+ [*] (currently work|current work|current coop|work now|work right now) [*]
-- Currently having a lot of fun here at Air Miles. Working as a Fullstack developer and doing some ML. Secret Projects so hush.
++ [*] (currently work|current work|current coop|work now|work right now|last coop|previous coop|prev coop) [*]
+- My last coop was at IBM. Worked on an IBM Watson analytics chat bot. Built an app in React Native and a backend that operates with Blockchain, written in Go and NodeJS.
 
 + [*] (like to work|dream work|dream coop|want to work) [*]
-- I'd like to work for a company that a whole lot of innovation. They should work hard and play hard. They should expect me to learn and contribute fast.   
+- I'd like to work for a company that a whole lot of innovation. They should work hard and play hard. They should expect me to learn and contribute fast.
+
++ [*] (coop|cooop) [*]
+- Coop is an amazing and unique oppurtinity. You have to really work hard in your coop because you are only there for 4 months. It lets you try out new things.
