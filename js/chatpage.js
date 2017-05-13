@@ -21,13 +21,13 @@ rs.loadFile([
   "js/brain/fun.rive",
   "js/brain/random.rive",
   "js/brain/projects.rive",
-  "js/brain/school.rive",    
-  "js/brain/work.rive",    
+  "js/brain/school.rive",
+  "js/brain/work.rive",
   "js/brain/eliza.rive",
   "js/brain/javascript.rive"
   ], on_load_success, on_load_error);
 
-// You can register objects that can then be called 
+// You can register objects that can then be called
 // using <call></call> syntax
 rs.setSubroutine('fancyJSObject', function(rs, args){
   // doing complex stuff here
@@ -104,7 +104,7 @@ function insertMessage() {
   $('.message-input').val(null);
   updateScrollbar();
   setTimeout(function() {
-  
+
   console.log("rivescriptStr: " + msg);
     try {
     reply = rs.reply("soandso", msg);
@@ -152,8 +152,8 @@ function fakeMessage(reply) {
        (function(repObj, i) {
           setTimeout(function() {
             endBotThinking();
-            $('<div class="message new"><figure class="avatar"><img src="https://ece.uwaterloo.ca/~zu2syed/img/zunair.png" /></figure>' + repObj + '</div>').appendTo($('.mCSB_container')).addClass('new');
-          
+            $('<div class="message new"><figure class="avatar"><img src="https://zunair-syed.github.io/img/zunair_new.jpeg" /></figure>' + repObj + '</div>').appendTo($('.mCSB_container')).addClass('new');
+
             if(i == (replyArr.length-1) ){
               isLastMsg = true;
               setDate();
@@ -162,17 +162,17 @@ function fakeMessage(reply) {
               setTimeout(function() {
                  if(!isLastMsg) startBotThinking();
               }, randInt(250, 1000));
-            } 
+            }
             updateScrollbar();
           }, randInt(1250, 2500) + (i*1300));
         })(replyArr[i], i);
-  
+
   }
 }
 
 
 function startBotThinking(){
-  $('<div class="message loading new"><figure class="avatar"><img src="https://ece.uwaterloo.ca/~zu2syed/img/zunair.png" /></figure><span></span></div>').appendTo($('.mCSB_container'));
+  $('<div class="message loading new"><figure class="avatar"><img src="https://zunair-syed.github.io/img/zunair_new.jpeg" /></figure><span></span></div>').appendTo($('.mCSB_container'));
   updateScrollbar();
   console.log("STARTed");
 }

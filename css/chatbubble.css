@@ -6,7 +6,7 @@
 }
 
 .chatHead {
-  background: #fff url('https://zunair-syed.github.io/img/zunair.png') no-repeat;
+  background: #fff url('https://zunair-syed.github.io/img/zunair_new.jpeg') no-repeat;
   position: fixed;
   background-size:     cover;                      /* <------ */
   width: 70px;
@@ -21,7 +21,7 @@
   pointer-events: initial;
   text-decoration: none;
   overflow: initial;
-  
+
   box-shadow: 0 2px 12px 1px rgba(0,0,0,.89);
 }
 
