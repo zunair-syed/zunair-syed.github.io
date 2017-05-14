@@ -48,12 +48,12 @@
 
     #Triangle-1 {
       /*-webkit-animation: box 42.5s infinite; /* Main Anim is super laggy on chrome and safary*/
-      -moz-animation: box 42.5s infinite; /* Main Anim seems good on Firefox*/
+      /*-moz-animation: box 42.5s infinite; /* Main Anim seems good on Firefox*/*/
     }
 
-    #Triangle-2 { 
+    #Triangle-2 {
       /*-webkit-animation: box2 12.5s infinite; /* same as above */
-      -moz-animation: box2 12.5s infinite; /* same as above */
+      /*-moz-animation: box2 12.5s infinite; /* same as above */*/
     }
 
     @keyframes box2 {
@@ -96,7 +96,3 @@
     .box-item:hover{
       color: #71b4f7;
     }
-
-
-
-
