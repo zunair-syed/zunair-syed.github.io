@@ -9,114 +9,38 @@ body{
     padding-right: 2%
 }
 
-
-.row{
-background-color: rgba(71, 182, 236, .9);
-opacity: 1;
-width: 100%;
-/*max-width: 1100px;
-*/height: 22%;
-margin-top: 1.5%;
-position: relative;
-border-radius: 18px;
-padding-top: 0.5%;
-transition: all .1s ease;
-/*border: 1px solid #18A9EF;
-*/box-shadow: outline 0 0 0 25px #53a7ea;
-
+/* .job_img{
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center center;
+    width: 20%;
 }
-
-/*.row:hover{
-background-color: rgba(206,206,206,.6);
-}
-*/
-.row:hover
-{
-  background-color: rgba(206, 206, 206, .4);
-   background-image: -webkit-gradient(linear, 0 100%, 100% 0, color-stop(.25, rgba(255, 255, 255, .2)), color-stop(.25, transparent), color-stop(.5, transparent), color-stop(.5, rgba(255, 255, 255, .2)), color-stop(.75, rgba(255, 255, 255, .2)), color-stop(.75, transparent), to(transparent));
-   background-image: -webkit-linear-gradient(30deg, rgba(255, 255, 255, .2) 20%, transparent 25%, transparent 45%, rgba(255, 255, 255, .2) 50%, rgba(255, 255, 255, .2) 70%, transparent 75%, transparent);
-   background-image: -moz-linear-gradient(30deg, rgba(255, 255, 255, .2) 20%, transparent 25%, transparent 45%, rgba(255, 255, 255, .2) 50%, rgba(255, 255, 255, .2) 70%, transparent 75%, transparent);
-   background-image: -ms-linear-gradient(30deg, rgba(255, 255, 255, .2) 20%, transparent 25%, transparent 45%, rgba(255, 255, 255, .2) 50%, rgba(255, 255, 255, .2) 70%, transparent 75%, transparent);
-   background-image: -o-linear-gradient(30deg, rgba(255, 255, 255, .2) 20%, transparent 25%, transparent 45%, rgba(255, 255, 255, .2) 50%, rgba(255, 255, 255, .2) 70%, transparent 75%, transparent);
-   background-image: linear-gradient(30deg, rgba(255, 255, 255, .2) 20%, transparent 25%, transparent 45%, rgba(255, 255, 255, .2) 50%, rgba(255, 255, 255, .2) 70%, transparent 75%, transparent);
-  opacity: 0.9;
-}
-
 .IBM{
-background-image: url("../img/ibm.png") ;
+    background-image: url("../img/ibm.png") ;
+    height: 10%;
 }
+
 .AM{
-background-image: url("../img/airmiles.png") ;
+    background-image: url("../img/airmiles.png") ;
 }
 .TD{
-background-image: url("../img/td.png") ;
-
+    background-image: url("../img/td.png") ;
 }
 .TWN{
-background-image: url("../img/twn.png") ;
-}
-.job_img{
-background-repeat: no-repeat;
-background-size: contain;
-background-position: center center;
-width: 18%;
-height: 100%;
-}
-
-.left_exp{
-  float: left;
-}
-
-.right_exp{
-  float:right;
-  margin-right: 1.5%;
-}
-
-.info{
-/*background-color: green;
-*/top: 0;
-margin-left: 1%;
-margin-right: 1%;
-width: 78.5%;
-height: 100%;
-}
-
-.title{
-  color:white;
-  font-family: 'Roboto', sans-serif;
-  font-weight: 3.5em;
-  font-size: 1.3em;
-}
-
-.date{
-  margin-right:2%;
-  float: right;
-  color:white;
-  font-family: 'Roboto', sans-serif;
-  font-weight: 3.2em;
-      font-style: italic;
-  font-size: 0.9em;
-}
-
-.detail{
-  margin-top: 1%;
-  color:white;
-  font-family: 'Signika', sans-serif;
-  font-weight: 3.0em;
-  font-size: 0.9em;
-}
+    background-image: url("../img/twn.png") ;
+} */
 
 .glassy_bg
 {
-/*   background-color: #9999FF;
-*/
-   background-image: -webkit-gradient(linear, 0 100%, 100% 0, color-stop(.25, rgba(255, 255, 255, .2)), color-stop(.25, transparent), color-stop(.5, transparent), color-stop(.5, rgba(255, 255, 255, .2)), color-stop(.75, rgba(255, 255, 255, .2)), color-stop(.75, transparent), to(transparent));
-   background-image: -webkit-linear-gradient(30deg, rgba(255, 255, 255, .2) 20%, transparent 25%, transparent 45%, rgba(255, 255, 255, .2) 50%, rgba(255, 255, 255, .2) 70%, transparent 75%, transparent);
-   background-image: -moz-linear-gradient(30deg, rgba(255, 255, 255, .2) 20%, transparent 25%, transparent 45%, rgba(255, 255, 255, .2) 50%, rgba(255, 255, 255, .2) 70%, transparent 75%, transparent);
-   background-image: -ms-linear-gradient(30deg, rgba(255, 255, 255, .2) 20%, transparent 25%, transparent 45%, rgba(255, 255, 255, .2) 50%, rgba(255, 255, 255, .2) 70%, transparent 75%, transparent);
-   background-image: -o-linear-gradient(30deg, rgba(255, 255, 255, .2) 20%, transparent 25%, transparent 45%, rgba(255, 255, 255, .2) 50%, rgba(255, 255, 255, .2) 70%, transparent 75%, transparent);
-   background-image: linear-gradient(30deg, rgba(255, 255, 255, .2) 20%, transparent 25%, transparent 45%, rgba(255, 255, 255, .2) 50%, rgba(255, 255, 255, .2) 70%, transparent 75%, transparent);
-/*  opacity: 0.9;
+    /*   background-color: #9999FF;
+    */
+    background-image: -webkit-gradient(linear, 0 100%, 100% 0, color-stop(.25, rgba(255, 255, 255, .2)), color-stop(.25, transparent), color-stop(.5, transparent), color-stop(.5, rgba(255, 255, 255, .2)), color-stop(.75, rgba(255, 255, 255, .2)), color-stop(.75, transparent), to(transparent));
+    background-image: -webkit-linear-gradient(30deg, rgba(255, 255, 255, .2) 20%, transparent 25%, transparent 45%, rgba(255, 255, 255, .2) 50%, rgba(255, 255, 255, .2) 70%, transparent 75%, transparent);
+    background-image: -moz-linear-gradient(30deg, rgba(255, 255, 255, .2) 20%, transparent 25%, transparent 45%, rgba(255, 255, 255, .2) 50%, rgba(255, 255, 255, .2) 70%, transparent 75%, transparent);
+    background-image: -ms-linear-gradient(30deg, rgba(255, 255, 255, .2) 20%, transparent 25%, transparent 45%, rgba(255, 255, 255, .2) 50%, rgba(255, 255, 255, .2) 70%, transparent 75%, transparent);
+    background-image: -o-linear-gradient(30deg, rgba(255, 255, 255, .2) 20%, transparent 25%, transparent 45%, rgba(255, 255, 255, .2) 50%, rgba(255, 255, 255, .2) 70%, transparent 75%, transparent);
+    background-image: linear-gradient(30deg, rgba(255, 255, 255, .2) 20%, transparent 25%, transparent 45%, rgba(255, 255, 255, .2) 50%, rgba(255, 255, 255, .2) 70%, transparent 75%, transparent);
+    /*  opacity: 0.9;
 */}
 
 /* unvisited link */
@@ -138,3 +62,43 @@ a:hover {
 a:active {
     color: blue;
 }
+
+
+
+img:hover{
+background-color: rgba(242,244,242,0.5);
+}
+
+img{
+    position: absolute;
+    border-radius: 25px 25px 25px 25px;
+    -webkit-transition: opacity 0.2s ease-in-out;
+    -moz-transition: opacity 0.2s ease-in-out;
+    -o-transition: opacity 0.2s ease-in-out;
+    transition: opacity 0.2s ease-in-out;
+}
+
+h1{
+    position: absolute;
+    font-size: 400%;
+    font-weight: bold;
+    color: white;
+    text-shadow: 2px 2px #000000;
+
+    left:28%;
+    font-family: 'Do Hyeon', sans-serif;
+    /* font-family: 'Shrikhand', cursive;
+    font-family: 'Press Start 2P', cursive; */
+}
+
+/* #slide {
+    /* position: absolute;
+    left: -100px; *
+    background: blue;
+    transition: 1s;
+}
+
+div:hover #slide {
+    transition: 1s;
+    left: 400;
+} */
