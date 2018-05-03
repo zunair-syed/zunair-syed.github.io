@@ -6,20 +6,20 @@ var livePatern = {
   colors: [252, 251, 249, 248, 241, 240],
   triangleColors: [],
   destColors: [],
-  
+
   init: function(){
     this.canvas = document.getElementById('canvas');
     this.context = this.canvas.getContext('2d');
     this.cols = Math.floor(document.body.clientWidth / 24);
     this.rows = Math.floor(document.body.clientHeight / 24) + 1;
-    
+
     this.canvas.width = document.body.clientWidth;
     this.canvas.height = document.body.clientHeight;
-    
+
     this.drawBackground();
     this.animate();
   },
-  
+
   drawTriangle: function(x, y, color, inverted){
     inverted = inverted == undefined ? false : inverted;
 
@@ -31,17 +31,17 @@ var livePatern = {
     this.context.fill();
     this.context.closePath();
   },
-  
-  getColor: function(){    
+
+  getColor: function(){
     return this.colors[(Math.floor(Math.random() * 6))];
   },
-  
+
   drawBackground: function(){
     var eq = null;
     var x = this.cols;
     var destY = 0;
     var color, y;
-    
+
     while(x--){
       eq = x % 2;
       y = this.rows;
@@ -54,7 +54,7 @@ var livePatern = {
       }
     }
   },
-  
+
   animate: function(){
     var me = this;
 
@@ -68,9 +68,9 @@ var livePatern = {
       me.drawTriangle(x * 24 + 2, y * 24, this.getColor());
     }
 
-    setTimeout(function(){    
+    setTimeout(function(){
       me.animate.call(me);
-    }, 10);
+    }, 5);
   },
 };
 

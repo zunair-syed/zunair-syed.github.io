@@ -1,12 +1,98 @@
 <!DOCTYPE html>
-<html>
+<html lang="en" >
+
 <head>
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link rel="stylesheet" href="css/back_style.css">
+  <meta charset="UTF-8">
+  <title>Profile Card (Envato Codepen Remix)</title>
+
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+
+      <link rel="stylesheet" href="css/style.css">
+
 
 </head>
-<body>
-    <script  src="js/back_style.js"></script>
 
+<body>
+
+  <!-- this is the markup. you can change the details (your own name, your own avatar etc.) but don’t change the basic structure! -->
+
+<aside class="profile-card">
+
+  <header class="main_header">
+
+    <!-- here’s the avatar -->
+    <a >
+      <img src="img/ava.gif">
+    </a>
+
+    <!-- the username -->
+    <h1>Zunair Syed</h1>
+
+
+    <!-- and role or location -->
+    <h2>
+       <div style="padding-top:3px; padding-bottom:2px;">
+            <img onclick="openlink(1)" style="cursor:pointer; height:30px; padding-right:20px;" src="img/github.png">
+            <img onclick="openlink(2)" style="cursor:pointer; height:30px; padding-right:20px;" src="img/linkedin.png">
+            <img onclick="openlink(3)" style="cursor:pointer; height:30px; padding-right:20px;" src="img/letter.png">
+            <img onclick="openlink(4)" style="cursor:pointer; height:30px"src="img/resume.png">
+        </div>
+    </h2>
+
+  </header>
+
+  <!-- bit of a bio; who are you? -->
+  <!-- <div class="profile-bio">
+
+    <p>I’m half unicorn and half biscuits. I design <b>ui + ux</b>, i code the <b>frontend</b>, and i love
+<b>motion design</b></p>
+
+  </div> -->
+
+  <!-- some social links to show off -->
+  <!-- <ul class="profile-social-links">
+
+    <li>
+      <a target="_blank" href="https://twitter.com/xxdionxx">
+        <i class="fa fa-twitter"></i>
+      </a>
+    </li>
+
+    <li>
+      <a target="_blank" href="https://dribbble.com/xdionx">
+        <i class="fa fa-dribbble"></i>
+      </a>
+    </li>
+
+    <li>
+      <a target="_blank" href="https://codepen.io/xdionx/">
+        <i class="fa fa-codepen"></i>
+      </a>
+    </li>
+
+
+  </ul> -->
+
+</aside>
+<!-- that’s all folks! -->
+
+
+
+  <script type="text/javascript">
+  function openlink(num) {
+      console.log("HIIIIII" + num)
+      var src = "";
+      if(num == 1){
+          window.open("https://github.com/zunair-syed");
+      }else if(num == 2){
+          window.open("https://www.linkedin.com/in/zunairsyed/");
+      }else if(num == 3){
+          location.href = "mailto:zu2syed@edu.uwaterloo.ca"
+      }else{
+          window.open("https://github.com/zunair-syed");
+      }
+  }
+  </script>
 </body>
+
 </html>
