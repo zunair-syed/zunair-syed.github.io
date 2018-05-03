@@ -1,0 +1,26 @@
+body {
+  background: #CCCFBC;
+}
+.line {
+  background: rgba(0,0,0,.2);
+  margin: 1em;
+  position: absolute;
+  animation: line 1s linear infinite;
+  transform-origin: 0 50%;
+  opacity: 0;
+  border-radius: 1em;
+}
+@keyframes line {
+  from {
+    opacity: 0;
+    transform: translateX(0) scaleX(0);
+  }
+  to {
+    opacity: 0;
+    transform: translateX(100%) scaleX(0);
+  }
+  50% {
+    opacity: 1;
+    transform: translateX(50%) scaleX(1);
+  }
+}
