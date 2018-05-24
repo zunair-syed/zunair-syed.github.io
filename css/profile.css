@@ -56,7 +56,7 @@
       /*-moz-animation: box2 12.5s infinite; /* same as above */*/
     }
 
-    @keyframes box2 {
+    /* @keyframes box2 {
       10% {
         -moz-transform: rotate(1deg);
         -ms-transform: rotate(1deg);
@@ -83,7 +83,7 @@
         -webkit-transform: rotate(2deg);
         transform: rotate(2deg);
       }
-    }
+    } */
 
 
     .box-item{

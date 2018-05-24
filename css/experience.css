@@ -7,6 +7,7 @@ body{
     margin-bottom: 1.5%;
     padding-left: 4%;
     padding-right: 2%
+    overflow: hidden;
 }
 
 /* .job_img{
@@ -80,12 +81,12 @@ img{
 
 h1{
     position: absolute;
-    font-size: 400%;
+    font-size: 7vw;
     font-weight: bold;
     color: white;
     text-shadow: 2px 2px #000000;
 
-    left:28%;
+    left:24%;
     font-family: 'Do Hyeon', sans-serif;
     /* font-family: 'Shrikhand', cursive;
     font-family: 'Press Start 2P', cursive; */

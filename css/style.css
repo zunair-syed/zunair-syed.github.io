@@ -307,7 +307,7 @@ header:hover ~ .profile-bio {
   color: #1c9060;
 }
 
-@-webkit-keyframes movebody {
+/* @-webkit-keyframes movebody {
   0% {
     bottom: 5px;
   }
@@ -391,7 +391,12 @@ header:hover ~ .profile-bio {
   100% {
     bottom: 5px;
   }
-}
+} */
+
+
+
+
+
 @-webkit-keyframes tire {
   from {
     background-position: center top;
@@ -432,6 +437,11 @@ header:hover ~ .profile-bio {
     background-position: center bottom;
   }
 }
+
+
+
+
+
 @-webkit-keyframes showAside {
   0% {
     border-width: 0;
@@ -647,6 +657,12 @@ header:hover ~ .profile-bio {
     color: #7e8ea1;
   }
 }
+
+
+
+
+
+
 @-webkit-keyframes showTips {
   0% {
     -webkit-transform: scaleY(0);
@@ -816,7 +832,14 @@ header:hover ~ .profile-bio {
     transform: translateY(0);
     opacity: 1;
   }
-}
+
+
+
+
+
+
+
+/* }
 @-webkit-keyframes showSoc {
   0% {
     opacity: 0;
@@ -856,7 +879,7 @@ header:hover ~ .profile-bio {
   100% {
     opacity: 1;
   }
-}
+} */
 /* @-webkit-keyframes closeBody {
   0% {
     width: 2500px;
