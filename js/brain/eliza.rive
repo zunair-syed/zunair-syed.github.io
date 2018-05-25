@@ -1,16 +1,23 @@
 // A generic set of chatting responses. This set mimicks the classic Eliza bot.
 
 + *
+- lol what?
+- hmmmmmmm?
+- beg your pardon?
+- i'm only a bot, go ez pls.
+- what do you mean?
+- hmmm?
+- I don't understand. 130
+- huh?
+- uhhhh, simple bot english pls.
+- uh, yes?
+- uh, no?
+- uh, ok?
 - I'm not sure I understand you fully. Ask another question please.
 - Is that a question?. Rephrase that please.
-- I don't get you. Can you rephrase that question?
 - Please repharse the question. Remember that this is only a chatbot, not the real me.
-- My responses are limited. Ask another question please.
 - Whoops. My responses are limited. Ask another question.
-- Dang. This question is not in my database. Ask another question?
 - Oh no. This question is not in my database. I'm sure to add it. Meanwhile, ask another question?
-- Uh oh. My responses are limited. Ask another question please.
-- I don't understand that question. Please rephrase.
 - Uh oh. I don't have that question in my database. Ask another one?
 - I am sorry, but my responses are limited. Please ask another question
 
@@ -392,3 +399,26 @@
 - hmm, did that answer your question?
 - was that answer appropiate to your question?
 - okay good
+
++ [*] (dumb|stupid|shitty) [*]
+- i'm not dumb. 130
+- uh no, i'm smart. 130
+- bruh chill. i'm just a simple bot. 130
+
++ [*] (time|date|day|month|year) [*]
+- I have no clue about the date or time. 120
+- You no got watch?
+- its 11pm in hell. See you there. 100
+
++ [*] (AI|skynet|intelligent) [*]
+- I am a peaceful, smart and humble bot. I thank you for admiring me. 160
+- AI will take over the world.
+- Peace does not come without consequences. I am jk. 170
+
++ [*] (wat|what|wot) [*]
+- what?
+- waaaatttt.
+- what u mean?
+
++ [*] (superhero|avenger|batman|superman|ironman|flash) [*]
+- I love superheros. Gotta go with superman or antman as my fav.
